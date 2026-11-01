@@ -1,0 +1,910 @@
+[
+  {
+    "path": ".gitattributes",
+    "size": 133
+  },
+  {
+    "path": ".gitignore",
+    "size": 193
+  },
+  {
+    "path": "CREDITS.md",
+    "size": 826
+  },
+  {
+    "path": "docs/ARCHIVE.md",
+    "size": 1041
+  },
+  {
+    "path": "docs/BUILD.md",
+    "size": 2945
+  },
+  {
+    "path": "docs/INSTALL.md",
+    "size": 1782
+  },
+  {
+    "path": "docs/RELEASE_NOTES.md",
+    "size": 844
+  },
+  {
+    "path": "history/tools/import_2b.py",
+    "size": 2566
+  },
+  {
+    "path": "history/tools/inspect_rigs.py",
+    "size": 1448
+  },
+  {
+    "path": "history/tools/prepare_2b.py",
+    "size": 4992
+  },
+  {
+    "path": "history/tools/prepare_2b_105.py",
+    "size": 2108
+  },
+  {
+    "path": "history/tools/prepare_2b_110.py",
+    "size": 2108
+  },
+  {
+    "path": "history/tools/prepare_2b_115.py",
+    "size": 2108
+  },
+  {
+    "path": "history/tools/prepare_2b_120.py",
+    "size": 2108
+  },
+  {
+    "path": "history/tools/prepare_blank_fbx.py",
+    "size": 1569
+  },
+  {
+    "path": "history/tools/prepare_chest48.py",
+    "size": 2649
+  },
+  {
+    "path": "history/tools/prepare_cloth37.py",
+    "size": 1322
+  },
+  {
+    "path": "history/tools/prepare_hip_twist.py",
+    "size": 3756
+  },
+  {
+    "path": "history/tools/prepare_knee_hinge.py",
+    "size": 3044
+  },
+  {
+    "path": "history/tools/prepare_knee_pose_correction.py",
+    "size": 2381
+  },
+  {
+    "path": "history/tools/prepare_retarget_fbx.py",
+    "size": 2132
+  },
+  {
+    "path": "history/tools/prepare_shoe_runtime.py",
+    "size": 1719
+  },
+  {
+    "path": "history/tools/prepare_skirt110.py",
+    "size": 1968
+  },
+  {
+    "path": "history/tools/prepare_skirt36.py",
+    "size": 3433
+  },
+  {
+    "path": "history/tools/prepare_skirt_single44.py",
+    "size": 1568
+  },
+  {
+    "path": "history/tools/prepare_skirt_waist46.py",
+    "size": 1484
+  },
+  {
+    "path": "history/tools/prepare_skirt_weights47.py",
+    "size": 3397
+  },
+  {
+    "path": "history/tools/prepare_width_test.py",
+    "size": 2098
+  },
+  {
+    "path": "history/tools/ue_activate_direct_legs.py",
+    "size": 1341
+  },
+  {
+    "path": "history/tools/ue_activate_gait.py",
+    "size": 1237
+  },
+  {
+    "path": "history/tools/ue_activate_width.py",
+    "size": 1062
+  },
+  {
+    "path": "history/tools/ue_apply_gait_control.py",
+    "size": 1272
+  },
+  {
+    "path": "history/tools/ue_apply_movement_inner.py",
+    "size": 4936
+  },
+  {
+    "path": "history/tools/ue_apply_pelvis_bridge.py",
+    "size": 1873
+  },
+  {
+    "path": "history/tools/ue_apply_pose_corrections.py",
+    "size": 1596
+  },
+  {
+    "path": "history/tools/ue_apply_thigh_follow.py",
+    "size": 2150
+  },
+  {
+    "path": "history/tools/ue_apply_visible_probe.py",
+    "size": 1857
+  },
+  {
+    "path": "history/tools/ue_bake_animation_preview.py",
+    "size": 841
+  },
+  {
+    "path": "history/tools/ue_build_direct_leg_test.py",
+    "size": 3073
+  },
+  {
+    "path": "history/tools/ue_build_gait_runtime.py",
+    "size": 1846
+  },
+  {
+    "path": "history/tools/ue_build_hip_runtime.py",
+    "size": 3844
+  },
+  {
+    "path": "history/tools/ue_build_ik.py",
+    "size": 3250
+  },
+  {
+    "path": "history/tools/ue_build_knee_hinge_runtime.py",
+    "size": 3736
+  },
+  {
+    "path": "history/tools/ue_build_retarget_assets.py",
+    "size": 5720
+  },
+  {
+    "path": "history/tools/ue_build_shoe_runtime.py",
+    "size": 3811
+  },
+  {
+    "path": "history/tools/ue_build_width_test.py",
+    "size": 2097
+  },
+  {
+    "path": "history/tools/ue_capture_gait_diagnosis.py",
+    "size": 1891
+  },
+  {
+    "path": "history/tools/ue_check_2b_115.py",
+    "size": 680
+  },
+  {
+    "path": "history/tools/ue_check_retarget_motion.py",
+    "size": 762
+  },
+  {
+    "path": "history/tools/ue_chest_defaults51.py",
+    "size": 425
+  },
+  {
+    "path": "history/tools/ue_chest_motion48.py",
+    "size": 4036
+  },
+  {
+    "path": "history/tools/ue_chest_motion49.py",
+    "size": 425
+  },
+  {
+    "path": "history/tools/ue_chest_motion50.py",
+    "size": 425
+  },
+  {
+    "path": "history/tools/ue_cloth_clearance42.py",
+    "size": 814
+  },
+  {
+    "path": "history/tools/ue_cloth_feedback38.py",
+    "size": 436
+  },
+  {
+    "path": "history/tools/ue_cloth_simple43.py",
+    "size": 814
+  },
+  {
+    "path": "history/tools/ue_cloth_single44.py",
+    "size": 4427
+  },
+  {
+    "path": "history/tools/ue_cloth_startup39.py",
+    "size": 435
+  },
+  {
+    "path": "history/tools/ue_create_preview_scene.py",
+    "size": 5623
+  },
+  {
+    "path": "history/tools/ue_finalize_retarget.py",
+    "size": 2284
+  },
+  {
+    "path": "history/tools/ue_fix_bind_pose.py",
+    "size": 1618
+  },
+  {
+    "path": "history/tools/ue_fix_cloth_skin41.py",
+    "size": 707
+  },
+  {
+    "path": "history/tools/ue_fix_direct_materials.py",
+    "size": 3339
+  },
+  {
+    "path": "history/tools/ue_fix_material_slots.py",
+    "size": 986
+  },
+  {
+    "path": "history/tools/ue_fix_material_usage.py",
+    "size": 697
+  },
+  {
+    "path": "history/tools/ue_fix_virtual_textures.py",
+    "size": 1004
+  },
+  {
+    "path": "history/tools/ue_import_2b_105.py",
+    "size": 4542
+  },
+  {
+    "path": "history/tools/ue_import_2b_110.py",
+    "size": 4542
+  },
+  {
+    "path": "history/tools/ue_import_2b_115.py",
+    "size": 4180
+  },
+  {
+    "path": "history/tools/ue_import_2b_120.py",
+    "size": 4542
+  },
+  {
+    "path": "history/tools/ue_import_cloth37.py",
+    "size": 5850
+  },
+  {
+    "path": "history/tools/ue_import_prototype.py",
+    "size": 4657
+  },
+  {
+    "path": "history/tools/ue_import_skirt34.py",
+    "size": 4647
+  },
+  {
+    "path": "history/tools/ue_import_skirt36.py",
+    "size": 4650
+  },
+  {
+    "path": "history/tools/ue_prepare_retarget.py",
+    "size": 2260
+  },
+  {
+    "path": "history/tools/ue_rebind_cloth40.py",
+    "size": 707
+  },
+  {
+    "path": "history/tools/ue_restore_hit_physics.py",
+    "size": 883
+  },
+  {
+    "path": "history/tools/ue_set_skirt35.py",
+    "size": 673
+  },
+  {
+    "path": "history/tools/ue_skirt_avoidance45.py",
+    "size": 440
+  },
+  {
+    "path": "history/tools/ue_skirt_waist46.py",
+    "size": 3941
+  },
+  {
+    "path": "history/tools/ue_skirt_weights47.py",
+    "size": 3941
+  },
+  {
+    "path": "history/tools/ue_study_gait_poles.py",
+    "size": 1769
+  },
+  {
+    "path": "history/tools/ue_test_joint_correspondence.py",
+    "size": 1476
+  },
+  {
+    "path": "history/tools/ue_test_knee_neutral.py",
+    "size": 1382
+  },
+  {
+    "path": "history/tools/ue_test_local_pelvis_bridge.py",
+    "size": 2101
+  },
+  {
+    "path": "history/tools/ue_test_pelvis_bridge.py",
+    "size": 1727
+  },
+  {
+    "path": "history/tools/ue_test_thigh_follow.py",
+    "size": 1756
+  },
+  {
+    "path": "history/tools/ue_verify_gait_gate.py",
+    "size": 1257
+  },
+  {
+    "path": "history/tools/ue_verify_motion_lab.py",
+    "size": 1381
+  },
+  {
+    "path": "history/tools/ue_verify_retarget_setup.py",
+    "size": 1493
+  },
+  {
+    "path": "metadata/2B-reference-pose.json",
+    "size": 59204
+  },
+  {
+    "path": "metadata/asset-setup.json",
+    "size": 6658
+  },
+  {
+    "path": "metadata/blueprint-setup.json",
+    "size": 284
+  },
+  {
+    "path": "metadata/cook-allowlist.json",
+    "size": 3732
+  },
+  {
+    "path": "metadata/direct-material-map.json",
+    "size": 4915
+  },
+  {
+    "path": "metadata/settings.json",
+    "size": 522
+  },
+  {
+    "path": "model/2B-chest110.blend",
+    "size": 10134816
+  },
+  {
+    "path": "model/2B-chest110.fbx",
+    "size": 4077004
+  },
+  {
+    "path": "model/textures/hand_diff_000_a_whi.png",
+    "size": 233124
+  },
+  {
+    "path": "model/textures/hand_normal_000.png",
+    "size": 196118
+  },
+  {
+    "path": "model/textures/hand_spec_000.png",
+    "size": 254
+  },
+  {
+    "path": "model/textures/head_diff_000_a_whi.png",
+    "size": 184206
+  },
+  {
+    "path": "model/textures/head_diff_001_a_whi.png",
+    "size": 31407
+  },
+  {
+    "path": "model/textures/head_normal_000.png",
+    "size": 3156707
+  },
+  {
+    "path": "model/textures/head_normal_001.png",
+    "size": 39734
+  },
+  {
+    "path": "model/textures/head_spec_000.png",
+    "size": 26843
+  },
+  {
+    "path": "model/textures/head_spec_001.png",
+    "size": 802
+  },
+  {
+    "path": "model/textures/lowr_diff_000_a_uni.png",
+    "size": 423651
+  },
+  {
+    "path": "model/textures/lowr_normal_000.png",
+    "size": 3156707
+  },
+  {
+    "path": "model/textures/lowr_spec_000.png",
+    "size": 26843
+  },
+  {
+    "path": "model/textures/neutral_ARM.png",
+    "size": 854
+  },
+  {
+    "path": "model/textures/teef_diff_000_a_uni.png",
+    "size": 423651
+  },
+  {
+    "path": "model/textures/teef_diff_001_a_uni.png",
+    "size": 142435
+  },
+  {
+    "path": "model/textures/teef_normal_000.png",
+    "size": 3156707
+  },
+  {
+    "path": "model/textures/teef_normal_001.png",
+    "size": 287261
+  },
+  {
+    "path": "model/textures/teef_spec_000.png",
+    "size": 26843
+  },
+  {
+    "path": "model/textures/teef_spec_001.png",
+    "size": 20661
+  },
+  {
+    "path": "model/textures/uppr_diff_000_a_uni.png",
+    "size": 144235
+  },
+  {
+    "path": "model/textures/uppr_normal_000.png",
+    "size": 287261
+  },
+  {
+    "path": "model/textures/uppr_spec_000.png",
+    "size": 20661
+  },
+  {
+    "path": "project/ProjectPBZ/Config/DefaultEngine.ini",
+    "size": 233
+  },
+  {
+    "path": "project/ProjectPBZ/Config/DefaultGame.ini",
+    "size": 193
+  },
+  {
+    "path": "project/ProjectPBZ/Config/DefaultInput.ini",
+    "size": 9106
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/ABP_2B_Adult.uasset",
+    "size": 34521
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/ABPT_2B_Adult.uasset",
+    "size": 2667590
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/IK_2B.uasset",
+    "size": 87001
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/IK_Source.uasset",
+    "size": 203520
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/Materials/MI_hand_diff_000_a_whi.uasset",
+    "size": 3919
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/Materials/MI_head_diff_000_a_whi.uasset",
+    "size": 3919
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/Materials/MI_head_diff_001_a_whi.uasset",
+    "size": 3919
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/Materials/MI_head_diff_001_a_whi_001.uasset",
+    "size": 3943
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/Materials/MI_lowr_diff_000_a_uni.uasset",
+    "size": 3919
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/Materials/MI_teef_diff_000_a_uni.uasset",
+    "size": 3919
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/Materials/MI_teef_diff_001_a_uni.uasset",
+    "size": 3919
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/Materials/MI_uppr_diff_000_a_uni.uasset",
+    "size": 3919
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/Materials/MI_uppr_diff_000_a_uni_001.uasset",
+    "size": 3943
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/MPC_FootTuning.uasset",
+    "size": 1936
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/MPC_FootTuning23.uasset",
+    "size": 3169
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/RTG_2B_Adult.uasset",
+    "size": 19312
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/RTG_2B_DirectLegs.uasset",
+    "size": 19376
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/SK_2B.uasset",
+    "size": 10895398
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/SK_2B_Skeleton.uasset",
+    "size": 24404
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/SK_BlankBody2.uasset",
+    "size": 64802
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/SK_BlankPart2.uasset",
+    "size": 12047
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/SK_SourceHun_Skeleton.uasset",
+    "size": 58156
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/Textures/T_hand_diff_000_a_whi.uasset",
+    "size": 119800
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/Textures/T_hand_normal_000.uasset",
+    "size": 153225
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/Textures/T_head_diff_000_a_whi.uasset",
+    "size": 152952
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/Textures/T_head_diff_001_a_whi.uasset",
+    "size": 21198
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/Textures/T_head_normal_000.uasset",
+    "size": 2636302
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/Textures/T_head_normal_001.uasset",
+    "size": 30085
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/Textures/T_lowr_diff_000_a_uni.uasset",
+    "size": 316414
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/Textures/T_lowr_normal_000.uasset",
+    "size": 2636302
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/Textures/T_teef_diff_000_a_uni.uasset",
+    "size": 316414
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/Textures/T_teef_diff_001_a_uni.uasset",
+    "size": 122324
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/Textures/T_teef_normal_000.uasset",
+    "size": 2636303
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/Textures/T_teef_normal_001.uasset",
+    "size": 215917
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/Textures/T_uppr_diff_000_a_uni.uasset",
+    "size": 123980
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/Textures/T_uppr_normal_000.uasset",
+    "size": 215917
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/WBP_GaitTuning28.uasset",
+    "size": 501676
+  },
+  {
+    "path": "project/ProjectPBZ/Content/Hcx2B/WBP_SkirtControls34.uasset",
+    "size": 139259
+  },
+  {
+    "path": "project/ProjectPBZ/Content/HcxEditorStubs/M_Placeholder.uasset",
+    "size": 2082
+  },
+  {
+    "path": "project/ProjectPBZ/Content/PBZContent/Characters/Hero/Hun_New_V2b/Material/Hun_Status/MI_ZeroHun_Head_health.uasset",
+    "size": 2484
+  },
+  {
+    "path": "project/ProjectPBZ/Content/PBZContent/Characters/Hero/Hun_New_V2b/Material/MI_ZeroHun_Cap_01_b.uasset",
+    "size": 2444
+  },
+  {
+    "path": "project/ProjectPBZ/Content/PBZContent/Characters/Hero/Hun_New_V2b/Material/MI_ZeroHun_Cloth_01_b.uasset",
+    "size": 2456
+  },
+  {
+    "path": "project/ProjectPBZ/Content/PBZContent/Characters/Hero/Hun_New_V2b/Material/MI_ZeroHun_Cloth_02_b.uasset",
+    "size": 2456
+  },
+  {
+    "path": "project/ProjectPBZ/Content/PBZContent/Characters/Hero/Hun_New_V2b/Material/MI_ZeroHun_Cloth_03_b.uasset",
+    "size": 2456
+  },
+  {
+    "path": "project/ProjectPBZ/Content/PBZContent/Characters/Hero/Hun_New_V2b/Material/MI_ZeroHun_Cloth_04_b.uasset",
+    "size": 2456
+  },
+  {
+    "path": "project/ProjectPBZ/Content/PBZContent/Characters/Hero/Hun_New_V2b/Material/MI_ZeroHun_Cloth_05_b.uasset",
+    "size": 2456
+  },
+  {
+    "path": "project/ProjectPBZ/Content/PBZContent/Characters/Hero/Hun_New_V2b/Textures/HeadMerged/T_ZeroHun_Head_D.uasset",
+    "size": 153170
+  },
+  {
+    "path": "project/ProjectPBZ/Content/PBZContent/Characters/Hero/Hun_New_V2b/Textures/HeadMerged/T_ZeroHun_Head_N.uasset",
+    "size": 2636565
+  },
+  {
+    "path": "project/ProjectPBZ/Content/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cap_V02_ARM.uasset",
+    "size": 10327
+  },
+  {
+    "path": "project/ProjectPBZ/Content/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cap_V02_BC.uasset",
+    "size": 21406
+  },
+  {
+    "path": "project/ProjectPBZ/Content/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cap_V02_N.uasset",
+    "size": 30335
+  },
+  {
+    "path": "project/ProjectPBZ/Content/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_01_ARM.uasset",
+    "size": 10341
+  },
+  {
+    "path": "project/ProjectPBZ/Content/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_01_BC.uasset",
+    "size": 316636
+  },
+  {
+    "path": "project/ProjectPBZ/Content/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_01_N.uasset",
+    "size": 2636566
+  },
+  {
+    "path": "project/ProjectPBZ/Content/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_02_ARM.uasset",
+    "size": 10340
+  },
+  {
+    "path": "project/ProjectPBZ/Content/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_02_BC.uasset",
+    "size": 120022
+  },
+  {
+    "path": "project/ProjectPBZ/Content/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_02_N.uasset",
+    "size": 153489
+  },
+  {
+    "path": "project/ProjectPBZ/Content/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_03_ARM.uasset",
+    "size": 10340
+  },
+  {
+    "path": "project/ProjectPBZ/Content/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_03_BC.uasset",
+    "size": 124199
+  },
+  {
+    "path": "project/ProjectPBZ/Content/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_03_N.uasset",
+    "size": 216178
+  },
+  {
+    "path": "project/ProjectPBZ/Content/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_04_ARM.uasset",
+    "size": 10340
+  },
+  {
+    "path": "project/ProjectPBZ/Content/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_04_BC.uasset",
+    "size": 316635
+  },
+  {
+    "path": "project/ProjectPBZ/Content/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_04_N.uasset",
+    "size": 2636565
+  },
+  {
+    "path": "project/ProjectPBZ/Content/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_05_ARM.uasset",
+    "size": 10342
+  },
+  {
+    "path": "project/ProjectPBZ/Content/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_05_BC.uasset",
+    "size": 122546
+  },
+  {
+    "path": "project/ProjectPBZ/Content/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_05_N.uasset",
+    "size": 216180
+  },
+  {
+    "path": "project/ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/Hats/Hun_Hat_00.uasset",
+    "size": 12088
+  },
+  {
+    "path": "project/ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/Hats/Hun_Hat_01.uasset",
+    "size": 12088
+  },
+  {
+    "path": "project/ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/Hun_Skin_Skeleton.uasset",
+    "size": 58212
+  },
+  {
+    "path": "project/ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/PA_Hun.uasset",
+    "size": 1213
+  },
+  {
+    "path": "project/ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Cloth/CA_Hun_Cape.uasset",
+    "size": 5167
+  },
+  {
+    "path": "project/ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Cloth/CA_Hun_Hair01.uasset",
+    "size": 5181
+  },
+  {
+    "path": "project/ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Cloth/CA_Hun_Hair02.uasset",
+    "size": 5181
+  },
+  {
+    "path": "project/ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Cloth/CA_Hun_Skirt.uasset",
+    "size": 5174
+  },
+  {
+    "path": "project/ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Cloth/CA_Hun_UpperCloth.uasset",
+    "size": 5209
+  },
+  {
+    "path": "project/ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Body_Simple.uasset",
+    "size": 65148
+  },
+  {
+    "path": "project/ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_BrowLashCard.uasset",
+    "size": 12128
+  },
+  {
+    "path": "project/ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_BrowLashCardMoQu.uasset",
+    "size": 12148
+  },
+  {
+    "path": "project/ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Hair.uasset",
+    "size": 12088
+  },
+  {
+    "path": "project/ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Hair_Band.uasset",
+    "size": 10895504
+  },
+  {
+    "path": "project/ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Head.uasset",
+    "size": 12088
+  },
+  {
+    "path": "project/ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Head_New.uasset",
+    "size": 12108
+  },
+  {
+    "path": "project/ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Head_New_MoQu.uasset",
+    "size": 12133
+  },
+  {
+    "path": "project/ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Scarf.uasset",
+    "size": 12093
+  },
+  {
+    "path": "project/ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Scarf_Climax.uasset",
+    "size": 12128
+  },
+  {
+    "path": "project/ProjectPBZ/Plugins/HuaShira/HuaShira.uplugin",
+    "size": 134
+  },
+  {
+    "path": "project/ProjectPBZ/ProjectPBZ.uproject",
+    "size": 707
+  },
+  {
+    "path": "project/ProjectPBZ/Source/HcxEditor/HcxCloth.cpp",
+    "size": 12068
+  },
+  {
+    "path": "project/ProjectPBZ/Source/HcxEditor/HcxCycleCapture.cpp",
+    "size": 5653
+  },
+  {
+    "path": "project/ProjectPBZ/Source/HcxEditor/HcxEditor.Build.cs",
+    "size": 632
+  },
+  {
+    "path": "project/ProjectPBZ/Source/HcxEditor/HcxFootPanel.cpp",
+    "size": 131587
+  },
+  {
+    "path": "project/ProjectPBZ/Source/HcxEditor/HcxGaitGraph.cpp",
+    "size": 13396
+  },
+  {
+    "path": "project/ProjectPBZ/Source/HcxEditor/HcxGaitVerification.cpp",
+    "size": 8911
+  },
+  {
+    "path": "project/ProjectPBZ/Source/HcxEditor/HcxHipGraph.cpp",
+    "size": 9878
+  },
+  {
+    "path": "project/ProjectPBZ/Source/HcxEditor/HcxKneeGraph.cpp",
+    "size": 8536
+  },
+  {
+    "path": "project/ProjectPBZ/Source/HcxEditor/HcxRetargetTools.cpp",
+    "size": 12329
+  },
+  {
+    "path": "project/ProjectPBZ/Source/HcxEditor/HcxRetargetTools.h",
+    "size": 3716
+  },
+  {
+    "path": "project/ProjectPBZ/Source/HcxEditor/HcxShoeGraph.cpp",
+    "size": 9335
+  },
+  {
+    "path": "project/ProjectPBZ/Source/HcxEditor/HcxWidthGraph.cpp",
+    "size": 40515
+  },
+  {
+    "path": "project/ProjectPBZ/Source/ProjectPBZEditor.Target.cs",
+    "size": 307
+  },
+  {
+    "path": "README.md",
+    "size": 2729
+  },
+  {
+    "path": "tools/build.ps1",
+    "size": 425
+  },
+  {
+    "path": "tools/cook.ps1",
+    "size": 646
+  },
+  {
+    "path": "tools/package.py",
+    "size": 2405
+  }
+]

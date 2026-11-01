@@ -1,0 +1,17 @@
+**/Binaries/
+**/Intermediate/
+**/Saved/
+**/DerivedDataCache/
+**/.vs/
+**/__pycache__/
+*.pyc
+*.sln
+*.suo
+*.dmp
+*.log
+*.mp4
+*.blend1
+local-config.*
+resource-key*
+release/
+output/

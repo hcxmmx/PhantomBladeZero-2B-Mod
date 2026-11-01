@@ -1,0 +1,8 @@
+*.uasset binary
+*.blend binary
+*.fbx binary
+*.png binary
+*.md text eol=lf
+*.py text eol=lf
+*.cpp text eol=lf
+*.h text eol=lf

@@ -1,0 +1,26 @@
+{
+  "version": "0.2.51",
+  "body_scale": 1.1,
+  "movement": {
+    "foot_outward_degrees": 17,
+    "foot_offset_cm_per_side": 3,
+    "knee_guide_inward_cm": 6,
+    "blend_seconds": 0.35
+  },
+  "idle": {
+    "enabled": true,
+    "foot_offset_cm_per_side": -4.08,
+    "knee_guide_inward_cm": 3.99,
+    "correct_foot_direction": false
+  },
+  "skirt": {
+    "amount": 0.6,
+    "return": 145,
+    "chaos_cloth": false
+  },
+  "chest": {
+    "amount": 1.2,
+    "return": 160
+  },
+  "hair_physics": false
+}

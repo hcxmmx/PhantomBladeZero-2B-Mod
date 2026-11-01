@@ -1,0 +1,121 @@
+{
+  "materials": [
+    {
+      "slot": "teef_diff_001_a_uni",
+      "albedo": "teef_diff_001_a_uni",
+      "normal": "teef_normal_001",
+      "material": "/Game/Hcx2B/Materials/MI_teef_diff_001_a_uni.MI_teef_diff_001_a_uni"
+    },
+    {
+      "slot": "lowr_diff_000_a_uni",
+      "albedo": "lowr_diff_000_a_uni",
+      "normal": "lowr_normal_000",
+      "material": "/Game/Hcx2B/Materials/MI_lowr_diff_000_a_uni.MI_lowr_diff_000_a_uni"
+    },
+    {
+      "slot": "hand_diff_000_a_whi",
+      "albedo": "hand_diff_000_a_whi",
+      "normal": "hand_normal_000",
+      "material": "/Game/Hcx2B/Materials/MI_hand_diff_000_a_whi.MI_hand_diff_000_a_whi"
+    },
+    {
+      "slot": "teef_diff_000_a_uni",
+      "albedo": "teef_diff_000_a_uni",
+      "normal": "teef_normal_000",
+      "material": "/Game/Hcx2B/Materials/MI_teef_diff_000_a_uni.MI_teef_diff_000_a_uni"
+    },
+    {
+      "slot": "head_diff_000_a_whi",
+      "albedo": "head_diff_000_a_whi",
+      "normal": "head_normal_000",
+      "material": "/Game/Hcx2B/Materials/MI_head_diff_000_a_whi.MI_head_diff_000_a_whi"
+    },
+    {
+      "slot": "head_diff_001_a_whi",
+      "albedo": "head_diff_001_a_whi",
+      "normal": "head_normal_001",
+      "material": "/Game/Hcx2B/Materials/MI_head_diff_001_a_whi.MI_head_diff_001_a_whi"
+    },
+    {
+      "slot": "head_diff_001_a_whi_001",
+      "albedo": "head_diff_001_a_whi",
+      "normal": "head_normal_001",
+      "material": "/Game/Hcx2B/Materials/MI_head_diff_001_a_whi_001.MI_head_diff_001_a_whi_001"
+    },
+    {
+      "slot": "uppr_diff_000_a_uni",
+      "albedo": "uppr_diff_000_a_uni",
+      "normal": "uppr_normal_000",
+      "material": "/Game/Hcx2B/Materials/MI_uppr_diff_000_a_uni.MI_uppr_diff_000_a_uni"
+    },
+    {
+      "slot": "uppr_diff_000_a_uni_001",
+      "albedo": "uppr_diff_000_a_uni",
+      "normal": "uppr_normal_000",
+      "material": "/Game/Hcx2B/Materials/MI_uppr_diff_000_a_uni_001.MI_uppr_diff_000_a_uni_001"
+    }
+  ],
+  "textures": 14,
+  "empty_overrides": [
+    "/HuaShira/Characters/Hero/Hero_Hun/SkinParts/Hun_Body_Simple",
+    "/HuaShira/Characters/Hero/Hero_Hun/SkinParts/Hun_Head_New",
+    "/HuaShira/Characters/Hero/Hero_Hun/SkinParts/Hun_Head",
+    "/HuaShira/Characters/Hero/Hero_Hun/SkinParts/Hun_Head_New_MoQu",
+    "/HuaShira/Characters/Hero/Hero_Hun/SkinParts/Hun_Hair",
+    "/HuaShira/Characters/Hero/Hero_Hun/SkinParts/Hun_Scarf",
+    "/HuaShira/Characters/Hero/Hero_Hun/SkinParts/Hun_Scarf_Climax",
+    "/HuaShira/Characters/Hero/Hero_Hun/Hats/Hun_Hat_00",
+    "/HuaShira/Characters/Hero/Hero_Hun/Hats/Hun_Hat_01",
+    "/HuaShira/Characters/Hero/Hero_Hun/SkinParts/Cloth/CA_Hun_Hair01",
+    "/HuaShira/Characters/Hero/Hero_Hun/SkinParts/Cloth/CA_Hun_Hair02",
+    "/HuaShira/Characters/Hero/Hero_Hun/SkinParts/Cloth/CA_Hun_Cape",
+    "/HuaShira/Characters/Hero/Hero_Hun/SkinParts/Cloth/CA_Hun_Skirt",
+    "/HuaShira/Characters/Hero/Hero_Hun/SkinParts/Cloth/CA_Hun_UpperCloth",
+    "/HuaShira/Characters/Hero/Hero_Hun/SkinParts/Hun_BrowLashCard",
+    "/HuaShira/Characters/Hero/Hero_Hun/SkinParts/Hun_BrowLashCardMoQu"
+  ],
+  "game_parent": "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Material/MI_ZeroHun_Cloth_03_b.MI_ZeroHun_Cloth_03_b",
+  "exclude_cooked_stub_packages": [
+    "/HuaShira/Characters/Hero/Hero_Hun/Hun_Skin_Skeleton.Hun_Skin_Skeleton",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Material/MI_ZeroHun_Cloth_03_b.MI_ZeroHun_Cloth_03_b",
+    "/Game/HcxEditorStubs/M_Placeholder.M_Placeholder",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Material/MI_ZeroHun_Cloth_03_b.MI_ZeroHun_Cloth_03_b",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Material/MI_ZeroHun_Cloth_02_b.MI_ZeroHun_Cloth_02_b",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Material/MI_ZeroHun_Cloth_04_b.MI_ZeroHun_Cloth_04_b",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Material/Hun_Status/MI_ZeroHun_Head_health.MI_ZeroHun_Head_health",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Material/MI_ZeroHun_Cap_01_b.MI_ZeroHun_Cap_01_b",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Material/MI_ZeroHun_Cloth_01_b.MI_ZeroHun_Cloth_01_b",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Material/MI_ZeroHun_Cloth_05_b.MI_ZeroHun_Cloth_05_b"
+  ],
+  "texture_overrides": [
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_03_BC",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_03_N",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_03_ARM",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_02_BC",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_02_N",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_02_ARM",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_04_BC",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_04_N",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_04_ARM",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/HeadMerged/T_ZeroHun_Head_D",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/HeadMerged/T_ZeroHun_Head_N",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cap_V02_BC",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cap_V02_N",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cap_V02_ARM",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_01_BC",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_01_N",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_01_ARM",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_05_BC",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_05_N",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_05_ARM"
+  ],
+  "direct_game_materials": [
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Material/MI_ZeroHun_Cloth_03_b",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Material/MI_ZeroHun_Cloth_02_b",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Material/MI_ZeroHun_Cloth_04_b",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Material/Hun_Status/MI_ZeroHun_Head_health",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Material/MI_ZeroHun_Cap_01_b",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Material/MI_ZeroHun_Cloth_01_b",
+    "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Material/MI_ZeroHun_Cloth_05_b"
+  ]
+}

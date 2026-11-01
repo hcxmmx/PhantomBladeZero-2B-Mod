@@ -1,0 +1,144 @@
+[
+  {
+    "diffuse": "uppr_diff_000_a_uni",
+    "material": "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Material/MI_ZeroHun_Cloth_03_b",
+    "overrides": [
+      {
+        "source": "uppr_diff_000_a_uni.png",
+        "target": "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_03_BC",
+        "kind": "Albedo"
+      },
+      {
+        "source": "uppr_normal_000.png",
+        "target": "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_03_N",
+        "kind": "Normal"
+      },
+      {
+        "source": "neutral_ARM.png",
+        "target": "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_03_ARM",
+        "kind": "Mix"
+      }
+    ]
+  },
+  {
+    "diffuse": "hand_diff_000_a_whi",
+    "material": "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Material/MI_ZeroHun_Cloth_02_b",
+    "overrides": [
+      {
+        "source": "hand_diff_000_a_whi.png",
+        "target": "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_02_BC",
+        "kind": "Albedo"
+      },
+      {
+        "source": "hand_normal_000.png",
+        "target": "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_02_N",
+        "kind": "Normal"
+      },
+      {
+        "source": "neutral_ARM.png",
+        "target": "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_02_ARM",
+        "kind": "Mix"
+      }
+    ]
+  },
+  {
+    "diffuse": "lowr_diff_000_a_uni",
+    "material": "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Material/MI_ZeroHun_Cloth_04_b",
+    "overrides": [
+      {
+        "source": "lowr_diff_000_a_uni.png",
+        "target": "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_04_BC",
+        "kind": "Albedo"
+      },
+      {
+        "source": "lowr_normal_000.png",
+        "target": "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_04_N",
+        "kind": "Normal"
+      },
+      {
+        "source": "neutral_ARM.png",
+        "target": "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_04_ARM",
+        "kind": "Mix"
+      }
+    ]
+  },
+  {
+    "diffuse": "head_diff_000_a_whi",
+    "material": "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Material/Hun_Status/MI_ZeroHun_Head_health",
+    "overrides": [
+      {
+        "source": "head_diff_000_a_whi.png",
+        "target": "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/HeadMerged/T_ZeroHun_Head_D",
+        "kind": "Basecolor"
+      },
+      {
+        "source": "head_normal_000.png",
+        "target": "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/HeadMerged/T_ZeroHun_Head_N",
+        "kind": "Normal"
+      }
+    ]
+  },
+  {
+    "diffuse": "head_diff_001_a_whi",
+    "material": "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Material/MI_ZeroHun_Cap_01_b",
+    "overrides": [
+      {
+        "source": "head_diff_001_a_whi.png",
+        "target": "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cap_V02_BC",
+        "kind": "Albedo"
+      },
+      {
+        "source": "head_normal_001.png",
+        "target": "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cap_V02_N",
+        "kind": "Normal"
+      },
+      {
+        "source": "neutral_ARM.png",
+        "target": "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cap_V02_ARM",
+        "kind": "Mix"
+      }
+    ]
+  },
+  {
+    "diffuse": "teef_diff_000_a_uni",
+    "material": "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Material/MI_ZeroHun_Cloth_01_b",
+    "overrides": [
+      {
+        "source": "teef_diff_000_a_uni.png",
+        "target": "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_01_BC",
+        "kind": "Albedo"
+      },
+      {
+        "source": "teef_normal_000.png",
+        "target": "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_01_N",
+        "kind": "Normal"
+      },
+      {
+        "source": "neutral_ARM.png",
+        "target": "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_01_ARM",
+        "kind": "Mix"
+      }
+    ]
+  },
+  {
+    "diffuse": "teef_diff_001_a_uni",
+    "material": "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Material/MI_ZeroHun_Cloth_05_b",
+    "overrides": [
+      {
+        "source": "teef_diff_001_a_uni.png",
+        "target": "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_05_BC",
+        "kind": "Albedo"
+      },
+      {
+        "source": "teef_normal_001.png",
+        "target": "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_05_N",
+        "kind": "Normal"
+      },
+      {
+        "source": "neutral_ARM.png",
+        "target": "/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cloth_05_ARM",
+        "kind": "Mix"
+      }
+    ]
+  }
+]

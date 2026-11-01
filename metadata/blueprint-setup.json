@@ -1,0 +1,8 @@
+{
+  "template": "/Game/Hcx2B/ABPT_2B_Adult.ABPT_2B_Adult",
+  "blueprint": "/Game/Hcx2B/ABP_2B_Adult.ABP_2B_Adult",
+  "post_process_class": "/Game/Hcx2B/ABP_2B_Adult.ABP_2B_Adult_C",
+  "visible_overrides": [
+    "/HuaShira/Characters/Hero/Hero_Hun/SkinParts/Hun_Hair_Band"
+  ]
+}

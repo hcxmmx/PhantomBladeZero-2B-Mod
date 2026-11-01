@@ -1,0 +1,2788 @@
+{
+  "FinalRefBoneInfo": [
+    {
+      "Name": "SKEL_ROOT",
+      "ParentIndex": -1
+    },
+    {
+      "Name": "SKEL_Pelvis",
+      "ParentIndex": 0
+    },
+    {
+      "Name": "SKEL_L_Thigh",
+      "ParentIndex": 1
+    },
+    {
+      "Name": "SKEL_L_Calf",
+      "ParentIndex": 2
+    },
+    {
+      "Name": "SKEL_L_Foot",
+      "ParentIndex": 3
+    },
+    {
+      "Name": "SKEL_L_Toe0",
+      "ParentIndex": 4
+    },
+    {
+      "Name": "IK_L_Foot",
+      "ParentIndex": 4
+    },
+    {
+      "Name": "PH_L_Foot",
+      "ParentIndex": 4
+    },
+    {
+      "Name": "MH_L_Knee",
+      "ParentIndex": 2
+    },
+    {
+      "Name": "SKEL_R_Thigh",
+      "ParentIndex": 1
+    },
+    {
+      "Name": "SKEL_R_Calf",
+      "ParentIndex": 9
+    },
+    {
+      "Name": "SKEL_R_Foot",
+      "ParentIndex": 10
+    },
+    {
+      "Name": "SKEL_R_Toe0",
+      "ParentIndex": 11
+    },
+    {
+      "Name": "IK_R_Foot",
+      "ParentIndex": 11
+    },
+    {
+      "Name": "PH_R_Foot",
+      "ParentIndex": 11
+    },
+    {
+      "Name": "MH_R_Knee",
+      "ParentIndex": 9
+    },
+    {
+      "Name": "RB_L_ThighRoll",
+      "ParentIndex": 1
+    },
+    {
+      "Name": "RB_R_ThighRoll",
+      "ParentIndex": 1
+    },
+    {
+      "Name": "SM_M_BackSkirtRoll",
+      "ParentIndex": 1
+    },
+    {
+      "Name": "SM_L_BackSkirtRoll",
+      "ParentIndex": 18
+    },
+    {
+      "Name": "SM_R_BackSkirtRoll",
+      "ParentIndex": 18
+    },
+    {
+      "Name": "SM_M_FrontSkirtRoll",
+      "ParentIndex": 1
+    },
+    {
+      "Name": "SM_L_FrontSkirtRoll",
+      "ParentIndex": 21
+    },
+    {
+      "Name": "SM_R_FrontSkirtRoll",
+      "ParentIndex": 21
+    },
+    {
+      "Name": "SKEL_Spine_Root",
+      "ParentIndex": 0
+    },
+    {
+      "Name": "SKEL_Spine0",
+      "ParentIndex": 24
+    },
+    {
+      "Name": "SKEL_Spine1",
+      "ParentIndex": 25
+    },
+    {
+      "Name": "SKEL_Spine2",
+      "ParentIndex": 26
+    },
+    {
+      "Name": "SKEL_Spine3",
+      "ParentIndex": 27
+    },
+    {
+      "Name": "SKEL_L_Clavicle",
+      "ParentIndex": 28
+    },
+    {
+      "Name": "SKEL_L_UpperArm",
+      "ParentIndex": 29
+    },
+    {
+      "Name": "SKEL_L_Forearm",
+      "ParentIndex": 30
+    },
+    {
+      "Name": "SKEL_L_Hand",
+      "ParentIndex": 31
+    },
+    {
+      "Name": "SKEL_L_Finger00",
+      "ParentIndex": 32
+    },
+    {
+      "Name": "SKEL_L_Finger01",
+      "ParentIndex": 33
+    },
+    {
+      "Name": "SKEL_L_Finger02",
+      "ParentIndex": 34
+    },
+    {
+      "Name": "SKEL_L_Finger10",
+      "ParentIndex": 32
+    },
+    {
+      "Name": "SKEL_L_Finger11",
+      "ParentIndex": 36
+    },
+    {
+      "Name": "SKEL_L_Finger12",
+      "ParentIndex": 37
+    },
+    {
+      "Name": "SKEL_L_Finger20",
+      "ParentIndex": 32
+    },
+    {
+      "Name": "SKEL_L_Finger21",
+      "ParentIndex": 39
+    },
+    {
+      "Name": "SKEL_L_Finger22",
+      "ParentIndex": 40
+    },
+    {
+      "Name": "SKEL_L_Finger30",
+      "ParentIndex": 32
+    },
+    {
+      "Name": "SKEL_L_Finger31",
+      "ParentIndex": 42
+    },
+    {
+      "Name": "SKEL_L_Finger32",
+      "ParentIndex": 43
+    },
+    {
+      "Name": "SKEL_L_Finger40",
+      "ParentIndex": 32
+    },
+    {
+      "Name": "SKEL_L_Finger41",
+      "ParentIndex": 45
+    },
+    {
+      "Name": "SKEL_L_Finger42",
+      "ParentIndex": 46
+    },
+    {
+      "Name": "PH_L_Hand",
+      "ParentIndex": 32
+    },
+    {
+      "Name": "IK_L_Hand",
+      "ParentIndex": 32
+    },
+    {
+      "Name": "RB_L_ForeArmRoll",
+      "ParentIndex": 31
+    },
+    {
+      "Name": "RB_L_ArmRoll",
+      "ParentIndex": 30
+    },
+    {
+      "Name": "MH_L_Elbow",
+      "ParentIndex": 30
+    },
+    {
+      "Name": "SKEL_R_Clavicle",
+      "ParentIndex": 28
+    },
+    {
+      "Name": "SKEL_R_UpperArm",
+      "ParentIndex": 53
+    },
+    {
+      "Name": "SKEL_R_Forearm",
+      "ParentIndex": 54
+    },
+    {
+      "Name": "SKEL_R_Hand",
+      "ParentIndex": 55
+    },
+    {
+      "Name": "SKEL_R_Finger00",
+      "ParentIndex": 56
+    },
+    {
+      "Name": "SKEL_R_Finger01",
+      "ParentIndex": 57
+    },
+    {
+      "Name": "SKEL_R_Finger02",
+      "ParentIndex": 58
+    },
+    {
+      "Name": "SKEL_R_Finger10",
+      "ParentIndex": 56
+    },
+    {
+      "Name": "SKEL_R_Finger11",
+      "ParentIndex": 60
+    },
+    {
+      "Name": "SKEL_R_Finger12",
+      "ParentIndex": 61
+    },
+    {
+      "Name": "SKEL_R_Finger20",
+      "ParentIndex": 56
+    },
+    {
+      "Name": "SKEL_R_Finger21",
+      "ParentIndex": 63
+    },
+    {
+      "Name": "SKEL_R_Finger22",
+      "ParentIndex": 64
+    },
+    {
+      "Name": "SKEL_R_Finger30",
+      "ParentIndex": 56
+    },
+    {
+      "Name": "SKEL_R_Finger31",
+      "ParentIndex": 66
+    },
+    {
+      "Name": "SKEL_R_Finger32",
+      "ParentIndex": 67
+    },
+    {
+      "Name": "SKEL_R_Finger40",
+      "ParentIndex": 56
+    },
+    {
+      "Name": "SKEL_R_Finger41",
+      "ParentIndex": 69
+    },
+    {
+      "Name": "SKEL_R_Finger42",
+      "ParentIndex": 70
+    },
+    {
+      "Name": "PH_R_Hand",
+      "ParentIndex": 56
+    },
+    {
+      "Name": "IK_R_Hand",
+      "ParentIndex": 56
+    },
+    {
+      "Name": "RB_R_ForeArmRoll",
+      "ParentIndex": 55
+    },
+    {
+      "Name": "RB_R_ArmRoll",
+      "ParentIndex": 54
+    },
+    {
+      "Name": "MH_R_Elbow",
+      "ParentIndex": 54
+    },
+    {
+      "Name": "SKEL_Neck_1",
+      "ParentIndex": 28
+    },
+    {
+      "Name": "SKEL_Head",
+      "ParentIndex": 77
+    },
+    {
+      "Name": "IK_Head",
+      "ParentIndex": 78
+    },
+    {
+      "Name": "FACIAL_facialRoot",
+      "ParentIndex": 78
+    },
+    {
+      "Name": "FB_L_Brow_Out",
+      "ParentIndex": 80
+    },
+    {
+      "Name": "FB_Brow_Centre",
+      "ParentIndex": 80
+    },
+    {
+      "Name": "FB_L_Lid_Upper",
+      "ParentIndex": 80
+    },
+    {
+      "Name": "FB_L_Eye",
+      "ParentIndex": 80
+    },
+    {
+      "Name": "FB_L_CheekBone",
+      "ParentIndex": 80
+    },
+    {
+      "Name": "FB_UpperLipRoot",
+      "ParentIndex": 80
+    },
+    {
+      "Name": "FB_UpperLip",
+      "ParentIndex": 86
+    },
+    {
+      "Name": "FB_L_Lip_Top",
+      "ParentIndex": 87
+    },
+    {
+      "Name": "FB_R_Lip_Top",
+      "ParentIndex": 87
+    },
+    {
+      "Name": "FB_L_Lip_Corner",
+      "ParentIndex": 80
+    },
+    {
+      "Name": "FB_Jaw",
+      "ParentIndex": 80
+    },
+    {
+      "Name": "FB_LowerLipRoot",
+      "ParentIndex": 91
+    },
+    {
+      "Name": "FB_LowerLip",
+      "ParentIndex": 92
+    },
+    {
+      "Name": "FB_L_Lip_Bot",
+      "ParentIndex": 93
+    },
+    {
+      "Name": "FB_R_Lip_Bot",
+      "ParentIndex": 93
+    },
+    {
+      "Name": "FB_Tongue",
+      "ParentIndex": 92
+    },
+    {
+      "Name": "FB_R_Lid_Upper",
+      "ParentIndex": 80
+    },
+    {
+      "Name": "FB_R_Eye",
+      "ParentIndex": 80
+    },
+    {
+      "Name": "FB_R_CheekBone",
+      "ParentIndex": 80
+    },
+    {
+      "Name": "FB_R_Brow_Out",
+      "ParentIndex": 80
+    },
+    {
+      "Name": "FB_R_Lip_Corner",
+      "ParentIndex": 80
+    },
+    {
+      "Name": "RB_Neck_1",
+      "ParentIndex": 77
+    },
+    {
+      "Name": "SPR_L_Breast",
+      "ParentIndex": 28
+    },
+    {
+      "Name": "SPR_R_Breast",
+      "ParentIndex": 28
+    },
+    {
+      "Name": "RB_Neck",
+      "ParentIndex": 28
+    },
+    {
+      "Name": "IK_Root",
+      "ParentIndex": 0
+    }
+  ],
+  "FinalRefBonePose": [
+    {
+      "Rotation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 1.0,
+        "W": -6.123234e-17,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 4.8760995e-11,
+        "Y": 0.17955425,
+        "Z": 97.159454
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 3.5355347e-07,
+        "Y": -0.70710653,
+        "Z": -3.5355322e-07,
+        "W": -0.707107,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.99999994
+      },
+      "Translation": {
+        "X": -1.6286688e-06,
+        "Y": 9.536743e-07,
+        "Z": -2.480095
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.009076546,
+        "Y": -0.060351618,
+        "Z": -0.013734617,
+        "W": -0.9980414,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.99999994
+      },
+      "Translation": {
+        "X": 2.7671108,
+        "Y": 0.7147298,
+        "Z": -8.633696
+      },
+      "Scale3D": {
+        "X": 0.99999994,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -1.0660785e-06,
+        "Y": 9.77227e-08,
+        "Z": -0.026283951,
+        "W": -0.99965453,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 37.02256,
+        "Y": -1.8108909,
+        "Z": 2.030411
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0000001,
+        "Z": 1.0000001
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.031145876,
+        "Y": 0.047745995,
+        "Z": 0.6104487,
+        "W": -0.7900017,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 46.347805,
+        "Y": -1.1619455,
+        "Z": -0.5438466
+      },
+      "Scale3D": {
+        "X": 0.9999999,
+        "Y": 1.0,
+        "Z": 0.9999999
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.98578185,
+        "Y": -0.16803014,
+        "Z": 8.585142e-08,
+        "W": -2.714045e-07,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 10.12833,
+        "Y": 2.4051087,
+        "Z": -0.02751271
+      },
+      "Scale3D": {
+        "X": 0.99999994,
+        "Y": 1.0,
+        "Z": 0.99999994
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.57956356,
+        "Y": 0.40509772,
+        "Z": -0.57280564,
+        "W": 0.41460294,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 4.5849104,
+        "Y": 1.4097534,
+        "Z": -0.011512424
+      },
+      "Scale3D": {
+        "X": 0.9999999,
+        "Y": 1.0,
+        "Z": 0.99999994
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.57956356,
+        "Y": 0.40509772,
+        "Z": -0.57280564,
+        "W": 0.41460294,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 4.5849104,
+        "Y": 1.4097534,
+        "Z": -0.011512424
+      },
+      "Scale3D": {
+        "X": 0.9999999,
+        "Y": 1.0,
+        "Z": 0.99999994
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -1.1221899e-06,
+        "Y": 8.888833e-08,
+        "Z": -0.026283959,
+        "W": -0.99965453,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 37.022488,
+        "Y": -1.8109208,
+        "Z": 2.030443
+      },
+      "Scale3D": {
+        "X": 0.99999994,
+        "Y": 1.0000001,
+        "Z": 1.0000001
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.009077562,
+        "Y": 0.060384184,
+        "Z": -0.013735024,
+        "W": -0.9980394,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.99999994
+      },
+      "Translation": {
+        "X": 2.7742863,
+        "Y": 0.7145796,
+        "Z": 8.64207
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0000001,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 5.898292e-08,
+        "Y": -3.1552395e-06,
+        "Z": -0.026283955,
+        "W": -0.99965453,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 37.02179,
+        "Y": -1.810897,
+        "Z": -2.0315878
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.030065201,
+        "Y": -0.046087746,
+        "Z": 0.61054254,
+        "W": -0.79006946,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.99999994
+      },
+      "Translation": {
+        "X": 46.34539,
+        "Y": -1.1627458,
+        "Z": 0.6494994
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0000001
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.9857821,
+        "Y": -0.16802895,
+        "Z": 1.5088167e-08,
+        "W": -1.689159e-07,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 10.128581,
+        "Y": 2.408,
+        "Z": -0.060917553
+      },
+      "Scale3D": {
+        "X": 0.99999774,
+        "Y": 0.9999995,
+        "Z": 0.99999994
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.5728036,
+        "Y": -0.41460112,
+        "Z": 0.5795643,
+        "W": -0.40510148,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 4.584628,
+        "Y": 1.4119502,
+        "Z": -0.07743725
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0000001,
+        "Z": 0.9999999
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.5728036,
+        "Y": -0.41460112,
+        "Z": 0.5795643,
+        "W": -0.40510148,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 4.584628,
+        "Y": 1.4119502,
+        "Z": -0.07743725
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0000001,
+        "Z": 0.9999999
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -5.168252e-08,
+        "Y": -3.1594489e-06,
+        "Z": -0.026284333,
+        "W": -0.99965453,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 37.02171,
+        "Y": -1.8108406,
+        "Z": -2.0316503
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0000001,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.009076605,
+        "Y": -0.06035357,
+        "Z": -0.013736169,
+        "W": -0.9980413,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 2.7700787,
+        "Y": 0.7147503,
+        "Z": -8.633171
+      },
+      "Scale3D": {
+        "X": 0.99999994,
+        "Y": 0.99999994,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.009077562,
+        "Y": 0.060384184,
+        "Z": -0.013735024,
+        "W": -0.9980394,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.99999994
+      },
+      "Translation": {
+        "X": 2.7742863,
+        "Y": 0.7145796,
+        "Z": 8.64207
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0000001,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 2.2737368e-13,
+        "Y": -4.97786e-07,
+        "Z": -4.9778606e-13,
+        "W": -1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": -2.662056,
+        "Y": 8.504635,
+        "Z": -2.7828842e-06
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.0086754225,
+        "Y": -0.031418093,
+        "Z": -0.013992167,
+        "W": -0.99937075,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0000001
+      },
+      "Translation": {
+        "X": -0.0036782306,
+        "Y": 5.631923e-05,
+        "Z": -8.63551
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 0.99999994
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.008675005,
+        "Y": 0.031419974,
+        "Z": -0.013992904,
+        "W": -0.9993707,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0000001
+      },
+      "Translation": {
+        "X": -0.005049797,
+        "Y": 0.000110573834,
+        "Z": 8.63545
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0000001,
+        "Z": 0.99999994
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -2.8443914e-13,
+        "Y": 5.3990146e-13,
+        "Z": 5.3990125e-19,
+        "W": -1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": -5.0334244,
+        "Y": -8.644255,
+        "Z": -7.385306e-06
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.008675303,
+        "Y": -0.03141859,
+        "Z": -0.013992923,
+        "W": -0.9993707,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": -0.0044268793,
+        "Y": 8.206833e-05,
+        "Z": -8.635407
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 0.99999994
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.008675,
+        "Y": 0.031419422,
+        "Z": -0.0139929075,
+        "W": -0.9993707,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": -0.005636292,
+        "Y": -0.00039010512,
+        "Z": 8.63541
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0000001,
+        "Z": 0.99999994
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 8.659563e-17,
+        "Y": 0.70710653,
+        "Z": 8.659558e-17,
+        "W": -0.707107,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.99999994
+      },
+      "Translation": {
+        "X": -1.6318544e-06,
+        "Y": 9.536743e-07,
+        "Z": -2.480095
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 4.7245453e-07,
+        "Y": -6.86329e-07,
+        "Z": -0.042676516,
+        "W": -0.99908894,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 2.0766602,
+        "Y": 1.5947456,
+        "Z": -2.7748265e-06
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -4.986237e-07,
+        "Y": 6.6303926e-08,
+        "Z": 0.06804756,
+        "W": -0.9976821,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 4.152145,
+        "Y": -0.00030722623,
+        "Z": 8.71372e-08
+      },
+      "Scale3D": {
+        "X": 0.99999994,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -1.2973791e-09,
+        "Y": 2.2967773e-08,
+        "Z": -0.033241816,
+        "W": -0.99944735,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 4.835906,
+        "Y": 0.00038095668,
+        "Z": 7.55016e-08
+      },
+      "Scale3D": {
+        "X": 1.0000001,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -8.498826e-06,
+        "Y": 1.1646875e-07,
+        "Z": 0.009530026,
+        "W": -0.9999546,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 12.305554,
+        "Y": 0.00028050033,
+        "Z": 1.7105086e-07
+      },
+      "Scale3D": {
+        "X": 0.99999994,
+        "Y": 0.99999994,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.13294306,
+        "Y": 0.80179334,
+        "Z": -0.097252116,
+        "W": -0.57445246,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 20.614954,
+        "Y": -4.1212964,
+        "Z": 3.2715268
+      },
+      "Scale3D": {
+        "X": 0.99999994,
+        "Y": 0.9999997,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.021458393,
+        "Y": 0.19547006,
+        "Z": 0.18745989,
+        "W": -0.96238756,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 12.51773,
+        "Y": 0.25531444,
+        "Z": 0.21917024
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 0.99999994,
+        "Z": 0.99999994
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.22711053,
+        "Y": 0.067257054,
+        "Z": 0.20963733,
+        "W": -0.9486567,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 21.147676,
+        "Y": 0.060939353,
+        "Z": 0.6684535
+      },
+      "Scale3D": {
+        "X": 0.99999994,
+        "Y": 1.0000001,
+        "Z": 1.0000001
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.43709785,
+        "Y": 0.022380421,
+        "Z": -0.018653976,
+        "W": -0.89894193,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 20.176565,
+        "Y": -0.009804874,
+        "Z": 0.60811913
+      },
+      "Scale3D": {
+        "X": 0.99999994,
+        "Y": 0.9999998,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.035818744,
+        "Y": 0.1354555,
+        "Z": 0.2212886,
+        "W": -0.96509075,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.6594868,
+        "Y": -1.6013788,
+        "Z": 0.066068284
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0000001,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.0048372494,
+        "Y": 0.013223061,
+        "Z": -0.132835,
+        "W": -0.99103814,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.99999994
+      },
+      "Translation": {
+        "X": 4.631823,
+        "Y": -0.060624566,
+        "Z": -0.008705373
+      },
+      "Scale3D": {
+        "X": 0.99999994,
+        "Y": 0.9999999,
+        "Z": 0.9999999
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.00032747773,
+        "Y": 0.0053637754,
+        "Z": -0.155753,
+        "W": -0.9877814,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 4.003803,
+        "Y": -0.049612086,
+        "Z": 0.004079817
+      },
+      "Scale3D": {
+        "X": 1.0000001,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.6428765,
+        "Y": 0.036572423,
+        "Z": -0.040747423,
+        "W": -0.7640104,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 7.606694,
+        "Y": -1.7959247,
+        "Z": -1.5054578
+      },
+      "Scale3D": {
+        "X": 1.0000001,
+        "Y": 1.0,
+        "Z": 0.99999994
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.0016669862,
+        "Y": 0.030734954,
+        "Z": -0.23385495,
+        "W": -0.9717842,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 4.4606924,
+        "Y": 0.04069719,
+        "Z": 0.06959377
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 0.9999997,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.0029465214,
+        "Y": 0.022931341,
+        "Z": -0.19458075,
+        "W": -0.980614,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 2.1419835,
+        "Y": -0.023511495,
+        "Z": 0.01111682
+      },
+      "Scale3D": {
+        "X": 1.0000001,
+        "Y": 0.9999998,
+        "Z": 1.0000001
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.70033777,
+        "Y": 0.06419111,
+        "Z": -0.1172151,
+        "W": -0.7011898,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 7.5636806,
+        "Y": 0.34455177,
+        "Z": -1.5886222
+      },
+      "Scale3D": {
+        "X": 1.0000001,
+        "Y": 1.0,
+        "Z": 0.9999999
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.004846722,
+        "Y": 0.023009473,
+        "Z": -0.25925007,
+        "W": -0.96552396,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 4.8744817,
+        "Y": 0.03527883,
+        "Z": 0.053475216
+      },
+      "Scale3D": {
+        "X": 0.99999994,
+        "Y": 1.0,
+        "Z": 1.0000001
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.0065825568,
+        "Y": 0.027976725,
+        "Z": -0.19544207,
+        "W": -0.98029405,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 2.7621505,
+        "Y": -0.039240953,
+        "Z": 0.007003643
+      },
+      "Scale3D": {
+        "X": 1.0000002,
+        "Y": 0.9999998,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.7753982,
+        "Y": -0.0025185586,
+        "Z": -0.17170066,
+        "W": -0.607676,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.99999994
+      },
+      "Translation": {
+        "X": 7.091513,
+        "Y": 2.119754,
+        "Z": -0.8430863
+      },
+      "Scale3D": {
+        "X": 1.0000001,
+        "Y": 1.0000001,
+        "Z": 0.99999964
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.02108073,
+        "Y": 0.02539512,
+        "Z": -0.24061058,
+        "W": -0.9700604,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 3.8536277,
+        "Y": 0.04766756,
+        "Z": 0.019478457
+      },
+      "Scale3D": {
+        "X": 1.0000001,
+        "Y": 0.9999999,
+        "Z": 1.0000002
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.018935343,
+        "Y": 0.03714927,
+        "Z": -0.22267029,
+        "W": -0.9740017,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 2.932694,
+        "Y": -0.036393184,
+        "Z": 0.02068262
+      },
+      "Scale3D": {
+        "X": 1.0000001,
+        "Y": 1.0000002,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.8249002,
+        "Y": -0.073304184,
+        "Z": -0.15677272,
+        "W": -0.5381342,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.9999999
+      },
+      "Translation": {
+        "X": 6.1838455,
+        "Y": 3.5677783,
+        "Z": 0.0059149605
+      },
+      "Scale3D": {
+        "X": 1.0000001,
+        "Y": 1.0,
+        "Z": 0.9999998
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.030333811,
+        "Y": 0.016536035,
+        "Z": -0.29674545,
+        "W": -0.95433146,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 3.6645138,
+        "Y": 0.061057847,
+        "Z": 0.0016466094
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0000001
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.010561782,
+        "Y": 0.0029948887,
+        "Z": -0.13133638,
+        "W": -0.9912771,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0000001
+      },
+      "Translation": {
+        "X": 1.9745529,
+        "Y": -0.01841953,
+        "Z": 0.019613253
+      },
+      "Scale3D": {
+        "X": 1.0000001,
+        "Y": 1.0000001,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -6.110971e-07,
+        "Y": -5.791835e-07,
+        "Z": 1.7959454e-06,
+        "W": -1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 3.9123406,
+        "Y": -0.061166063,
+        "Z": 0.06413832
+      },
+      "Scale3D": {
+        "X": 1.0000001,
+        "Y": 0.9999999,
+        "Z": 0.99999994
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -6.110971e-07,
+        "Y": -5.791835e-07,
+        "Z": 1.7959454e-06,
+        "W": -1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 3.9123406,
+        "Y": -0.061166063,
+        "Z": 0.06413832
+      },
+      "Scale3D": {
+        "X": 1.0000001,
+        "Y": 0.9999999,
+        "Z": 0.99999994
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -1.6227274e-07,
+        "Y": -5.6656578e-08,
+        "Z": 3.885525e-08,
+        "W": -1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 15.631706,
+        "Y": 0.13403334,
+        "Z": 0.20299503
+      },
+      "Scale3D": {
+        "X": 0.9999999,
+        "Y": 0.99999976,
+        "Z": 0.9999998
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -1.3027648e-07,
+        "Y": -2.3038917e-06,
+        "Z": -1.8973772e-07,
+        "W": -1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.0065743243,
+        "Y": -0.00077322114,
+        "Z": 0.0048077027
+      },
+      "Scale3D": {
+        "X": 1.0000001,
+        "Y": 1.0,
+        "Z": 1.0000002
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.2271102,
+        "Y": 0.06725811,
+        "Z": 0.20963755,
+        "W": -0.9486566,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 21.145603,
+        "Y": 0.061067753,
+        "Z": 0.6694918
+      },
+      "Scale3D": {
+        "X": 0.99999994,
+        "Y": 1.0000001,
+        "Z": 1.0000001
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.13293296,
+        "Y": -0.80179447,
+        "Z": -0.09723778,
+        "W": -0.5744556,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 20.626163,
+        "Y": -4.123501,
+        "Z": -3.2646723
+      },
+      "Scale3D": {
+        "X": 0.99999994,
+        "Y": 1.0000002,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.02145891,
+        "Y": -0.19546981,
+        "Z": 0.18745945,
+        "W": -0.9623877,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 12.559779,
+        "Y": 0.23894963,
+        "Z": -0.24425933
+      },
+      "Scale3D": {
+        "X": 0.99999994,
+        "Y": 1.0,
+        "Z": 0.9999999
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.22713444,
+        "Y": -0.06734137,
+        "Z": 0.20961134,
+        "W": -0.9486507,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 21.104616,
+        "Y": 0.0551398,
+        "Z": -0.6385198
+      },
+      "Scale3D": {
+        "X": 1.0000001,
+        "Y": 1.0000001,
+        "Z": 1.0000001
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.47166193,
+        "Y": -0.04807061,
+        "Z": 0.040928707,
+        "W": -0.8795164,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 20.222193,
+        "Y": -0.38749725,
+        "Z": -0.86982214
+      },
+      "Scale3D": {
+        "X": 0.99999994,
+        "Y": 0.99999994,
+        "Z": 0.9999999
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.03581977,
+        "Y": -0.13545571,
+        "Z": 0.22128887,
+        "W": -0.96509063,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.65598243,
+        "Y": -1.6305053,
+        "Z": -0.04282033
+      },
+      "Scale3D": {
+        "X": 0.99999994,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.0048338375,
+        "Y": -0.013222135,
+        "Z": -0.13283645,
+        "W": -0.99103796,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 4.633965,
+        "Y": -0.10610136,
+        "Z": 0.027754018
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0000001
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.00032414286,
+        "Y": -0.0053634555,
+        "Z": -0.155752,
+        "W": -0.9877816,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 3.9910178,
+        "Y": -0.07196826,
+        "Z": -0.009557078
+      },
+      "Scale3D": {
+        "X": 0.99999994,
+        "Y": 1.0000001,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.7640062,
+        "Y": -0.040748637,
+        "Z": 0.036571514,
+        "W": -0.6428815,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 7.5648065,
+        "Y": -1.873564,
+        "Z": 1.5487792
+      },
+      "Scale3D": {
+        "X": 0.99999994,
+        "Y": 1.0,
+        "Z": 0.9999999
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.0016519079,
+        "Y": 0.030738566,
+        "Z": 0.23385264,
+        "W": -0.97178465,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 4.441004,
+        "Y": -0.048658714,
+        "Z": 0.08919689
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0000002,
+        "Z": 1.0000001
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.0029316023,
+        "Y": 0.02293545,
+        "Z": 0.19458185,
+        "W": -0.9806137,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.99999994
+      },
+      "Translation": {
+        "X": 2.1240025,
+        "Y": 0.012897696,
+        "Z": 0.008198501
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.7011896,
+        "Y": -0.11721529,
+        "Z": 0.06418966,
+        "W": -0.7003381,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 7.52109,
+        "Y": 0.300903,
+        "Z": 1.602667
+      },
+      "Scale3D": {
+        "X": 0.9999999,
+        "Y": 1.0000001,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.004847543,
+        "Y": 0.023009637,
+        "Z": 0.25924915,
+        "W": -0.9655242,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 4.835019,
+        "Y": -0.046388496,
+        "Z": 0.05839594
+      },
+      "Scale3D": {
+        "X": 0.99999994,
+        "Y": 0.9999999,
+        "Z": 1.0000001
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.006583378,
+        "Y": 0.027973538,
+        "Z": 0.19544102,
+        "W": -0.98029435,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0000001
+      },
+      "Translation": {
+        "X": 2.7459836,
+        "Y": 0.039402172,
+        "Z": 0.00019172096
+      },
+      "Scale3D": {
+        "X": 1.0000002,
+        "Y": 1.0000001,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.6076716,
+        "Y": -0.171703,
+        "Z": -0.0025182178,
+        "W": -0.7754012,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 7.0399966,
+        "Y": 2.1109025,
+        "Z": 0.838622
+      },
+      "Scale3D": {
+        "X": 0.99999994,
+        "Y": 1.0000001,
+        "Z": 1.0000001
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.021082446,
+        "Y": 0.025393909,
+        "Z": 0.24061039,
+        "W": -0.97006047,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 3.8204238,
+        "Y": -0.04292546,
+        "Z": 0.009067857
+      },
+      "Scale3D": {
+        "X": 0.99999994,
+        "Y": 1.0,
+        "Z": 1.0000001
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.01893103,
+        "Y": 0.037148844,
+        "Z": 0.22267003,
+        "W": -0.9740019,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 2.9316607,
+        "Y": 0.026618991,
+        "Z": 0.010220574
+      },
+      "Scale3D": {
+        "X": 0.99999994,
+        "Y": 1.0000001,
+        "Z": 1.0000001
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.5381316,
+        "Y": -0.15677424,
+        "Z": -0.07330311,
+        "W": -0.82490176,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 6.1342883,
+        "Y": 3.5946429,
+        "Z": -0.032514054
+      },
+      "Scale3D": {
+        "X": 0.9999999,
+        "Y": 1.0000001,
+        "Z": 1.0000001
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.030337527,
+        "Y": 0.016535606,
+        "Z": 0.29674274,
+        "W": -0.9543322,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.99999994
+      },
+      "Translation": {
+        "X": 3.637712,
+        "Y": -0.056236763,
+        "Z": -0.012778527
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0000001,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.010563749,
+        "Y": 0.0029972517,
+        "Z": 0.13133493,
+        "W": -0.9912772,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 1.9654388,
+        "Y": 0.013961015,
+        "Z": 0.013069927
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 0.99999994,
+        "Z": 0.9999999
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 1.8840898e-06,
+        "Y": 7.663442e-07,
+        "Z": 1.4397116e-06,
+        "W": -1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 3.8884594,
+        "Y": -0.080768764,
+        "Z": -0.056098547
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 0.99999994,
+        "Z": 0.9999999
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 1.8840898e-06,
+        "Y": 7.663442e-07,
+        "Z": 1.4397116e-06,
+        "W": -1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 3.8884594,
+        "Y": -0.080768764,
+        "Z": -0.056098547
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 0.99999994,
+        "Z": 0.9999999
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 5.1284087e-07,
+        "Y": -1.8683073e-08,
+        "Z": -2.4725435e-07,
+        "W": -1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 15.65015,
+        "Y": 0.13476272,
+        "Z": -0.20489591
+      },
+      "Scale3D": {
+        "X": 0.9999998,
+        "Y": 0.99999994,
+        "Z": 0.9999999
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -3.6130107e-08,
+        "Y": 3.0865697e-06,
+        "Z": 1.17254345e-07,
+        "W": -1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": -0.0024557312,
+        "Y": -0.00021035584,
+        "Z": 0.00022964696
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0000002,
+        "Z": 1.0000001
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.2271343,
+        "Y": -0.06734135,
+        "Z": 0.20961136,
+        "W": -0.9486507,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.99999994
+      },
+      "Translation": {
+        "X": 21.10465,
+        "Y": 0.05498179,
+        "Z": -0.6387678
+      },
+      "Scale3D": {
+        "X": 1.0000001,
+        "Y": 1.0000002,
+        "Z": 1.0000001
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 9.110923e-06,
+        "Y": 4.5999357e-07,
+        "Z": 0.11343897,
+        "W": -0.99354494,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.99999994
+      },
+      "Translation": {
+        "X": 23.681389,
+        "Y": -0.00028471003,
+        "Z": 3.9588622e-07
+      },
+      "Scale3D": {
+        "X": 0.99999994,
+        "Y": 0.99999994,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 5.9005483e-06,
+        "Y": 1.2043654e-06,
+        "Z": -0.111345805,
+        "W": -0.99378175,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0000001
+      },
+      "Translation": {
+        "X": 11.898037,
+        "Y": -6.593651e-05,
+        "Z": 7.7383663e-07
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 0.9999999,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 5.5001115e-06,
+        "Y": -3.236172e-08,
+        "Z": 2.2350495e-08,
+        "W": -1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": -0.008365626,
+        "Y": 0.00046954857,
+        "Z": 6.008003e-09
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0000001,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 5.5001115e-06,
+        "Y": -3.236172e-08,
+        "Z": 2.2350495e-08,
+        "W": -1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": -0.008365626,
+        "Y": 0.00046954857,
+        "Z": 6.008003e-09
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0000001,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.57967144,
+        "Y": -0.07865912,
+        "Z": 0.68465185,
+        "W": -0.43479374,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 4.394974,
+        "Y": -0.34463382,
+        "Z": -1.8832154
+      },
+      "Scale3D": {
+        "X": 0.9999998,
+        "Y": 1.0,
+        "Z": 0.9999999
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.5092895,
+        "Y": -0.49053237,
+        "Z": 0.49052465,
+        "W": -0.50930125,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 4.78039,
+        "Y": -0.14569536,
+        "Z": -1.1705551e-07
+      },
+      "Scale3D": {
+        "X": 0.9999999,
+        "Y": 1.0,
+        "Z": 0.9999999
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.50168324,
+        "Y": -0.4983153,
+        "Z": 0.497855,
+        "W": -0.50213164,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.99999994
+      },
+      "Translation": {
+        "X": 2.7838984,
+        "Y": -5.928588,
+        "Z": 2.8918226
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.5016502,
+        "Y": -0.49834546,
+        "Z": 0.49788633,
+        "W": -0.5021036,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.99999994
+      },
+      "Translation": {
+        "X": 2.8866446,
+        "Y": -5.9273443,
+        "Z": 2.8916898
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0000001,
+        "Z": 1.0000001
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.6439437,
+        "Y": 0.19406734,
+        "Z": 0.7399223,
+        "W": -0.013762877,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 2.5710795,
+        "Y": -7.4426627,
+        "Z": 1.0826255
+      },
+      "Scale3D": {
+        "X": 1.0000011,
+        "Y": 1.0000004,
+        "Z": 1.000001
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.504011,
+        "Y": -0.5002068,
+        "Z": 0.49597663,
+        "W": -0.4997732,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": -2.0445797,
+        "Y": -4.141158,
+        "Z": 7.378472e-05
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 0.9999998,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.0038471636,
+        "Y": -0.42438996,
+        "Z": -0.0017979234,
+        "W": -0.90546954,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.99999994
+      },
+      "Translation": {
+        "X": 3.9110627,
+        "Y": -0.0021191067,
+        "Z": 0.26350403
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0000002,
+        "Z": 0.99999994
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.5049263,
+        "Y": 0.100374945,
+        "Z": 0.7082955,
+        "W": -0.48300287,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.7942272,
+        "Y": -0.36685166,
+        "Z": 0.49131855
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 0.99999994,
+        "Z": 1.0000001
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.5035941,
+        "Y": -0.10118772,
+        "Z": 0.7091683,
+        "W": 0.48294336,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.9999999
+      },
+      "Translation": {
+        "X": 0.79670954,
+        "Y": 0.3740912,
+        "Z": 0.49613264
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 0.9999999,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.6367628,
+        "Y": -0.2755667,
+        "Z": 0.65693,
+        "W": -0.29502395,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": -3.1193438,
+        "Y": -5.6317883,
+        "Z": 0.56720775
+      },
+      "Scale3D": {
+        "X": 0.99999994,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.32988644,
+        "Y": -0.62544066,
+        "Z": 0.62543255,
+        "W": -0.3298985,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.99999994
+      },
+      "Translation": {
+        "X": -1.437496,
+        "Y": -0.44374865,
+        "Z": -7.4418745e-07
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 0.9999997,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -5.4771904e-06,
+        "Y": 0.24222326,
+        "Z": 4.446886e-05,
+        "W": -0.97022057,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 3.6031435,
+        "Y": 3.384743e-06,
+        "Z": -0.39351657
+      },
+      "Scale3D": {
+        "X": 0.99999994,
+        "Y": 0.99999994,
+        "Z": 0.99999994
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 7.562988e-06,
+        "Y": 0.26908338,
+        "Z": -1.0939222e-06,
+        "W": -0.9631169,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 4.841548,
+        "Y": 3.140329e-05,
+        "Z": 0.68301207
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0000001,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.28243008,
+        "Y": -0.03712165,
+        "Z": 0.78178644,
+        "W": -0.55467576,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.45309135,
+        "Y": -0.07674119,
+        "Z": -0.38065407
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0000001,
+        "Z": 0.9999999
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -0.28180104,
+        "Y": -0.037639987,
+        "Z": -0.78194165,
+        "W": -0.554742,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.4486158,
+        "Y": 0.071366824,
+        "Z": -0.37863246
+      },
+      "Scale3D": {
+        "X": 1.0000001,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 1.5423074e-06,
+        "Y": 0.10585967,
+        "Z": -8.1240586e-07,
+        "W": -0.99438107,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 0.120125026,
+        "Y": -4.6165103e-09,
+        "Z": 0.04137251
+      },
+      "Scale3D": {
+        "X": 1.0000001,
+        "Y": 1.0,
+        "Z": 1.0000001
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.50166667,
+        "Y": -0.49832436,
+        "Z": 0.49826586,
+        "W": -0.5017315,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 2.7868483,
+        "Y": -5.928642,
+        "Z": -2.8788168
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.5010477,
+        "Y": -0.497291,
+        "Z": 0.49889845,
+        "W": -0.5027457,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 2.8999708,
+        "Y": -5.927406,
+        "Z": -2.878585
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0000001,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.013941835,
+        "Y": -0.74051,
+        "Z": -0.19404706,
+        "W": -0.64327,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 2.5826151,
+        "Y": -7.4484143,
+        "Z": -1.1797491
+      },
+      "Scale3D": {
+        "X": 0.99999994,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.4342941,
+        "Y": -0.6882682,
+        "Z": 0.0813755,
+        "W": -0.5753725,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 4.4030337,
+        "Y": -0.3393121,
+        "Z": 1.8793923
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0000002,
+        "Z": 1.0000001
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.29358286,
+        "Y": -0.6602426,
+        "Z": 0.27710965,
+        "W": -0.6333238,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": -3.1207037,
+        "Y": -5.63143,
+        "Z": -0.56789345
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 0.9999999
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": -1.4066966e-09,
+        "Y": 9.2144825e-09,
+        "Z": 5.0771703e-08,
+        "W": -1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 5.9410343,
+        "Y": -0.0015076457,
+        "Z": 3.5941463e-07
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.7071058,
+        "Y": 0.0012287694,
+        "Z": 0.70710564,
+        "W": 0.0012288344,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": 6.8772955,
+        "Y": -16.379614,
+        "Z": 8.60581
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0000001,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.7071058,
+        "Y": 0.0012293084,
+        "Z": 0.7071056,
+        "W": 0.0012282946,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.99999994
+      },
+      "Translation": {
+        "X": 6.8807364,
+        "Y": -16.379982,
+        "Z": -8.605555
+      },
+      "Scale3D": {
+        "X": 0.99999994,
+        "Y": 1.0,
+        "Z": 1.0000001
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 9.110923e-06,
+        "Y": 4.5999357e-07,
+        "Z": 0.11343897,
+        "W": -0.99354494,
+        "IsNormalized": true,
+        "Size": 0.99999994,
+        "SizeSquared": 0.99999994
+      },
+      "Translation": {
+        "X": 23.681389,
+        "Y": -0.00028471003,
+        "Z": 3.9588622e-07
+      },
+      "Scale3D": {
+        "X": 0.99999994,
+        "Y": 0.99999994,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    },
+    {
+      "Rotation": {
+        "X": 0.0,
+        "Y": -0.0,
+        "Z": 0.0,
+        "W": -1.0,
+        "IsNormalized": true,
+        "Size": 1.0,
+        "SizeSquared": 1.0
+      },
+      "Translation": {
+        "X": -1.6291576e-06,
+        "Y": 9.536743e-07,
+        "Z": -2.4733505
+      },
+      "Scale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "IsRotationNormalized": true
+    }
+  ]
+}
