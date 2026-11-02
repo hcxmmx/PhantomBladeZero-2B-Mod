@@ -1,5 +1,5 @@
 {
-  "version": "0.2.51",
+  "version": "0.2.52",
   "body_scale": 1.1,
   "movement": {
     "foot_outward_degrees": 17,
@@ -22,5 +22,6 @@
     "amount": 1.2,
     "return": 160
   },
-  "hair_physics": false
+  "hair_physics": false,
+  "player_debug_ui": false
 }

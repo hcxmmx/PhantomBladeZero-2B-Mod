@@ -6,6 +6,7 @@ class UAnimBlueprint; class UIKRetargeter; class USkeletalMesh; class UAnimSeque
 UCLASS() class HCXEDITOR_API UHcxRetargetTools : public UBlueprintFunctionLibrary {
  GENERATED_BODY()
 public:
+ UFUNCTION(BlueprintCallable,Category="Hcx") static FString MakePlayerBuild(UAnimBlueprint* Blueprint);
  UFUNCTION(BlueprintCallable,Category="Hcx") static FString BuildChestMotion(UAnimBlueprint* Blueprint);
  UFUNCTION(BlueprintCallable,Category="Hcx") static FString BuildSkirtAvoidance(UAnimBlueprint* Blueprint);
  UFUNCTION(BlueprintCallable,Category="Hcx") static FString RefineSkirtCloth(USkeletalMesh* Mesh);

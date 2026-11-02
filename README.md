@@ -1,6 +1,6 @@
 # 影之刃零 · 2B 角色替换 Mod
 
-作者：**Hcxmmx** · 当前存档版本：**0.2.51** · 免费非官方玩家 Mod
+作者：**Hcxmmx** · 当前存档版本：**0.2.52** · 免费非官方玩家 Mod
 
 将成年魂的默认外观替换为《尼尔：机械纪元》的2B。这是我第一次尝试UE角色替换，从一开始的O型腿、果冻腰，到现在能正常跑动和战斗，一点点调整到了这里。还不完美，但也想把这次尝试留下来，分享给同样喜欢2B的朋友。
 
@@ -8,16 +8,16 @@
 
 ## 下载与使用
 
-玩家请到 [**Releases**](https://github.com/hcxmmx/PhantomBladeZero-2B-Mod/releases/tag/v0.2.51) 下载 [`Hcxmmx_2B_PBZ_v0.2.51.zip`](https://github.com/hcxmmx/PhantomBladeZero-2B-Mod/releases/download/v0.2.51/Hcxmmx_2B_PBZ_v0.2.51.zip)。GitHub 的“Download ZIP”下载的是工程存档，不能直接安装进游戏。
+玩家请到 [**Releases**](https://github.com/hcxmmx/PhantomBladeZero-2B-Mod/releases/tag/v0.2.52) 下载 [`Hcxmmx_2B_PBZ_v0.2.52.zip`](https://github.com/hcxmmx/PhantomBladeZero-2B-Mod/releases/download/v0.2.52/Hcxmmx_2B_PBZ_v0.2.52.zip)。GitHub 的“Download ZIP”下载的是工程存档，不能直接安装进游戏。
 
 安装只需将包里的 `ProjectPBZ` 文件夹合并到游戏根目录。使用前退出游戏，同一时间保留一种主角角色替换。本 Mod 不依赖UE4SS。
 
-详细步骤、F8/F9调节和卸载方法见 [安装说明](docs/INSTALL.md)。
+详细安装和卸载方法见 [安装说明](docs/INSTALL.md)。
 
 ## 当前效果与限制
 
 - 保留游戏原有动画，通过重定向及局部IK适配2B体型；模型尺寸采用110%版本。
-- 支持游戏内步态调节、裙骨摆动和胸部次级运动。
+- 采用固定的步态适配、裙骨摆动和胸部次级运动；玩家版不含调试界面或调参快捷键。
 - 裙子使用骨骼方案，部分姿势仍会出现小面积穿模；当前版本没有布料模拟。
 - 武器保持游戏原有显示与挂接，手和刀柄有时仍有小幅偏差。
 - 头发跟随头部，没有独立头发物理；没有单独适配完整表情和所有过场。

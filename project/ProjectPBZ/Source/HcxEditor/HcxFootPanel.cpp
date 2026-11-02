@@ -514,3 +514,66 @@ FString UHcxRetargetTools::AttachFootTuningPanel(UAnimBlueprint* BP){
  for(bool Open:{true,false}){auto* Visibility=G.Call(UWidget::StaticClass(),TEXT("SetVisibility"));G.Link(Panel,G.P(Visibility,UEdGraphSchema_K2::PN_Self));G.Lit(Visibility,TEXT("InVisibility"),Open?TEXT("Visible"):TEXT("Collapsed"));auto* Exec=G.Run(G.P(Toggle,Open?UEdGraphSchema_K2::PN_Else:UEdGraphSchema_K2::PN_Then),Visibility);auto* Cursor=G.Set(TEXT("bShowMouseCursor"),APlayerController::StaticClass(),PC);G.Lit(Cursor,TEXT("bShowMouseCursor"),Open?TEXT("true"):TEXT("false"));Exec=G.Run(Exec,Cursor);auto* Mode=G.Call(UWidgetBlueprintLibrary::StaticClass(),Open?TEXT("SetInputMode_GameAndUIEx"):TEXT("SetInputMode_GameOnly"));G.Link(PC,G.P(Mode,TEXT("PlayerController")));if(Open){G.Lit(Mode,TEXT("bHideCursorDuringCapture"),TEXT("false"));G.Lit(Mode,TEXT("InMouseLockMode"),TEXT("DoNotLock"));}G.Run(Exec,Mode);}
  if(!G.OK)return G.Error;FBlueprintEditorUtils::MarkBlueprintAsStructurallyModified(BP);FKismetEditorUtilities::CompileBlueprint(BP);BP->MarkPackageDirty();return BP->Status==BS_Error?TEXT("panel attach compile failed"):TEXT("OK");
 }
+
+
+// Player releases keep authored animation defaults and contain no developer UI.
+FString UHcxRetargetTools::MakePlayerBuild(UAnimBlueprint* BP){
+ if(!BP)return TEXT("missing animation blueprint");
+ auto* Gait=LoadObject<UWidgetBlueprint>(nullptr,TEXT("/Game/Hcx2B/WBP_GaitTuning28"));
+ auto* Body=LoadObject<UWidgetBlueprint>(nullptr,TEXT("/Game/Hcx2B/WBP_SkirtControls34"));
+ if(!Gait||!Body)return TEXT("development defaults missing");
+ auto Set=[&](FName Name,float Value){for(auto& V:BP->NewVariables)if(V.VarName==Name){V.DefaultValue=FString::SanitizeFloat(Value);return;}};
+ auto Slider=[&](UWidgetBlueprint* W,const TCHAR* Widget,const TCHAR* Member){auto* S=Cast<USlider>(W->WidgetTree->FindWidget(Widget));check(S);Set(Member,S->GetValue());};
+ for(auto P:{TPair<const TCHAR*,const TCHAR*>(TEXT("LeftSlider"),TEXT("HcxFootRequestedL")),{TEXT("RightSlider"),TEXT("HcxFootRequestedR")},{TEXT("WidthSlider"),TEXT("HcxWidthCm")},{TEXT("KneeSlider"),TEXT("HcxKneeCm")},{TEXT("BlendSlider"),TEXT("HcxBlendSeconds")},{TEXT("IdleWidthSlider"),TEXT("HcxIdleWidthCm")},{TEXT("IdleKneeSlider"),TEXT("HcxIdleKneeCm")},{TEXT("IdleAngleSlider"),TEXT("HcxIdleAngle")}})Slider(Gait,P.Key,P.Value);
+ for(auto P:{TPair<const TCHAR*,const TCHAR*>(TEXT("CorrectionEnabled"),TEXT("HcxFootEnabled")),{TEXT("IdleEnabled"),TEXT("HcxIdleEnabled")},{TEXT("IdleFootEnabled"),TEXT("HcxIdleFootEnabled")}}){auto* C=Cast<UCheckBox>(Gait->WidgetTree->FindWidget(P.Key));check(C);Set(P.Value,C->IsChecked()?1:0);}
+ Slider(Body,TEXT("AmountSlider"),TEXT("HcxSkirtWeight"));Slider(Body,TEXT("SpringSlider"),TEXT("HcxSkirtSpring"));
+ Slider(Body,TEXT("ChestAmountSlider"),TEXT("HcxChestAmount"));Slider(Body,TEXT("ChestSpringSlider"),TEXT("HcxChestSpring"));
+ Set(TEXT("HcxFootPreview"),0);Set(TEXT("HcxGripLEnabled"),0);Set(TEXT("HcxGripREnabled"),0);
+ int32 Cut=0,Removed=0;
+ for(UEdGraph* E:BP->UbergraphPages){
+  // Later chest/clearance branches also read the body panel. Replace those
+  // reads by authored constants and keep their animation calculations running.
+  for(UEdGraphNode* N:E->Nodes)if(auto* C=Cast<UK2Node_CallFunction>(N)){
+   FName Fn=C->FunctionReference.GetMemberName();
+   if(Fn==TEXT("GetValue")||Fn==TEXT("IsChecked")){
+    auto* Self=C->FindPin(UEdGraphSchema_K2::PN_Self);if(!Self||Self->LinkedTo.Num()!=1)continue;
+    auto* V=Cast<UK2Node_VariableGet>(Self->LinkedTo[0]->GetOwningNode());if(!V)continue;
+    FName Name=V->VariableReference.GetMemberName();UWidget* W=Gait->WidgetTree->FindWidget(Name);if(!W)W=Body->WidgetTree->FindWidget(Name);if(!W)continue;
+    FString Value;if(auto* S=Cast<USlider>(W))Value=FString::SanitizeFloat(S->GetValue());else if(auto* B=Cast<UCheckBox>(W))Value=B->IsChecked()?TEXT("true"):TEXT("false");else continue;
+    auto* Ret=C->FindPin(UEdGraphSchema_K2::PN_ReturnValue);auto Links=Ret->LinkedTo;Ret->BreakAllPinLinks();for(auto* L:Links)E->GetSchema()->TrySetDefaultValue(*L,Value);
+   }
+   if(Fn==TEXT("IsValid")){
+    auto* Obj=C->FindPin(TEXT("Object"));if(!Obj||Obj->LinkedTo.Num()!=1)continue;
+    auto* V=Cast<UK2Node_VariableGet>(Obj->LinkedTo[0]->GetOwningNode());if(!V||V->VariableReference.GetMemberName()!=TEXT("HcxSkirtPanel"))continue;
+    auto* Ret=C->FindPin(UEdGraphSchema_K2::PN_ReturnValue);auto Links=Ret->LinkedTo;Ret->BreakAllPinLinks();for(auto* L:Links)E->GetSchema()->TrySetDefaultValue(*L,TEXT("true"));
+   }
+   if(Fn==TEXT("SetText")){
+    auto* In=C->FindPin(UEdGraphSchema_K2::PN_Execute);auto* Then=C->FindPin(UEdGraphSchema_K2::PN_Then);if(!In||!Then)continue;
+    auto Before=In->LinkedTo;auto After=Then->LinkedTo;In->BreakAllPinLinks();Then->BreakAllPinLinks();for(auto* A:Before)for(auto* B:After)E->GetSchema()->TryCreateConnection(A,B);
+   }
+  }
+  // The developer panels each have their own GetPlayerController -> IsValid gate.
+  // Other update branches (locomotion, interpolation, breathing) stay connected.
+  for(UEdGraphNode* N:E->Nodes)if(auto* B=Cast<UK2Node_IfThenElse>(N)){
+   auto* Cond=B->FindPin(UEdGraphSchema_K2::PN_Condition);if(!Cond||Cond->LinkedTo.Num()!=1)continue;
+   auto* Valid=Cast<UK2Node_CallFunction>(Cond->LinkedTo[0]->GetOwningNode());if(!Valid||Valid->FunctionReference.GetMemberName()!=TEXT("IsValid"))continue;
+   auto* Obj=Valid->FindPin(TEXT("Object"));if(!Obj||Obj->LinkedTo.Num()!=1)continue;
+   auto* PC=Cast<UK2Node_CallFunction>(Obj->LinkedTo[0]->GetOwningNode());if(!PC||PC->FunctionReference.GetMemberName()!=TEXT("GetPlayerController"))continue;
+   auto* Exec=B->FindPin(UEdGraphSchema_K2::PN_Execute);if(Exec&&Exec->LinkedTo.Num()){Exec->BreakAllPinLinks();++Cut;}
+  }
+  TSet<UEdGraphNode*> Live;TArray<UEdGraphNode*> Queue;
+  for(UEdGraphNode* N:E->Nodes)if(Cast<UK2Node_Event>(N))Queue.Add(N);
+  while(Queue.Num()){
+   auto* N=Queue.Pop();if(Live.Contains(N))continue;Live.Add(N);
+   for(auto* P:N->Pins)if((P->Direction==EGPD_Output&&P->PinType.PinCategory==UEdGraphSchema_K2::PC_Exec)||(P->Direction==EGPD_Input&&P->PinType.PinCategory!=UEdGraphSchema_K2::PC_Exec))for(auto* L:P->LinkedTo)Queue.Add(L->GetOwningNode());
+  }
+  TArray<UEdGraphNode*> Dead;for(UEdGraphNode* N:E->Nodes)if(!Live.Contains(N))Dead.Add(N);
+  for(auto* N:Dead){FBlueprintEditorUtils::RemoveNode(BP,N,true);++Removed;}
+ }
+ if(Cut!=2)return FString::Printf(TEXT("expected 2 UI branches, cut %d"),Cut);
+ for(UEdGraph* E:BP->UbergraphPages)for(UEdGraphNode* N:E->Nodes)if(auto* C=Cast<UK2Node_CallFunction>(N)){
+  FName Name=C->FunctionReference.GetMemberName();if(Name==TEXT("Create")||Name==TEXT("GetAllWidgetsOfClass")||Name==TEXT("AddToViewport")||Name==TEXT("WasInputKeyJustPressed")||Name==TEXT("SetInputMode_GameAndUIEx"))return TEXT("UI call survived pruning");
+ }
+ FBlueprintEditorUtils::MarkBlueprintAsStructurallyModified(BP);FKismetEditorUtilities::CompileBlueprint(BP);BP->MarkPackageDirty();
+ return BP->Status==BS_Error?TEXT("player blueprint compile failed"):FString::Printf(TEXT("OK: cut %d UI branches, removed %d nodes"),Cut,Removed);
+}

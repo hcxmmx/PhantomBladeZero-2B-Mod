@@ -9,7 +9,19 @@
   },
   {
     "path": "CREDITS.md",
-    "size": 826
+    "size": 810
+  },
+  {
+    "path": "development/tuning-0.2.51/ABP_2B_Adult.uasset",
+    "size": 34521
+  },
+  {
+    "path": "development/tuning-0.2.51/ABPT_2B_Adult.uasset",
+    "size": 2667590
+  },
+  {
+    "path": "development/tuning-0.2.51/README.md",
+    "size": 254
   },
   {
     "path": "docs/ARCHIVE.md",
@@ -17,347 +29,351 @@
   },
   {
     "path": "docs/BUILD.md",
-    "size": 2945
+    "size": 3256
   },
   {
     "path": "docs/INSTALL.md",
-    "size": 1782
+    "size": 1610
   },
   {
     "path": "docs/RELEASE_NOTES.md",
-    "size": 844
+    "size": 963
   },
   {
     "path": "history/tools/import_2b.py",
-    "size": 2566
+    "size": 2524
   },
   {
     "path": "history/tools/inspect_rigs.py",
-    "size": 1448
+    "size": 1433
   },
   {
     "path": "history/tools/prepare_2b.py",
-    "size": 4992
+    "size": 4910
   },
   {
     "path": "history/tools/prepare_2b_105.py",
-    "size": 2108
+    "size": 2086
   },
   {
     "path": "history/tools/prepare_2b_110.py",
-    "size": 2108
+    "size": 2086
   },
   {
     "path": "history/tools/prepare_2b_115.py",
-    "size": 2108
+    "size": 2086
   },
   {
     "path": "history/tools/prepare_2b_120.py",
-    "size": 2108
+    "size": 2086
   },
   {
     "path": "history/tools/prepare_blank_fbx.py",
-    "size": 1569
+    "size": 1549
   },
   {
     "path": "history/tools/prepare_chest48.py",
-    "size": 2649
+    "size": 2609
   },
   {
     "path": "history/tools/prepare_cloth37.py",
-    "size": 1322
+    "size": 1305
   },
   {
     "path": "history/tools/prepare_hip_twist.py",
-    "size": 3756
+    "size": 3730
   },
   {
     "path": "history/tools/prepare_knee_hinge.py",
-    "size": 3044
+    "size": 3021
   },
   {
     "path": "history/tools/prepare_knee_pose_correction.py",
-    "size": 2381
+    "size": 2361
   },
   {
     "path": "history/tools/prepare_retarget_fbx.py",
-    "size": 2132
+    "size": 2104
   },
   {
     "path": "history/tools/prepare_shoe_runtime.py",
-    "size": 1719
+    "size": 1702
   },
   {
     "path": "history/tools/prepare_skirt110.py",
-    "size": 1968
+    "size": 1936
   },
   {
     "path": "history/tools/prepare_skirt36.py",
-    "size": 3433
+    "size": 3371
   },
   {
     "path": "history/tools/prepare_skirt_single44.py",
-    "size": 1568
+    "size": 1546
   },
   {
     "path": "history/tools/prepare_skirt_waist46.py",
-    "size": 1484
+    "size": 1460
   },
   {
     "path": "history/tools/prepare_skirt_weights47.py",
-    "size": 3397
+    "size": 3346
   },
   {
     "path": "history/tools/prepare_width_test.py",
-    "size": 2098
+    "size": 2079
   },
   {
     "path": "history/tools/ue_activate_direct_legs.py",
-    "size": 1341
+    "size": 1331
   },
   {
     "path": "history/tools/ue_activate_gait.py",
-    "size": 1237
+    "size": 1219
   },
   {
     "path": "history/tools/ue_activate_width.py",
-    "size": 1062
+    "size": 1053
   },
   {
     "path": "history/tools/ue_apply_gait_control.py",
-    "size": 1272
+    "size": 1262
   },
   {
     "path": "history/tools/ue_apply_movement_inner.py",
-    "size": 4936
+    "size": 4906
   },
   {
     "path": "history/tools/ue_apply_pelvis_bridge.py",
-    "size": 1873
+    "size": 1852
   },
   {
     "path": "history/tools/ue_apply_pose_corrections.py",
-    "size": 1596
+    "size": 1577
   },
   {
     "path": "history/tools/ue_apply_thigh_follow.py",
-    "size": 2150
+    "size": 2127
   },
   {
     "path": "history/tools/ue_apply_visible_probe.py",
-    "size": 1857
+    "size": 1842
   },
   {
     "path": "history/tools/ue_bake_animation_preview.py",
-    "size": 841
+    "size": 829
   },
   {
     "path": "history/tools/ue_build_direct_leg_test.py",
-    "size": 3073
+    "size": 3040
   },
   {
     "path": "history/tools/ue_build_gait_runtime.py",
-    "size": 1846
+    "size": 1827
   },
   {
     "path": "history/tools/ue_build_hip_runtime.py",
-    "size": 3844
+    "size": 3805
   },
   {
     "path": "history/tools/ue_build_ik.py",
-    "size": 3250
+    "size": 3219
   },
   {
     "path": "history/tools/ue_build_knee_hinge_runtime.py",
-    "size": 3736
+    "size": 3698
   },
   {
     "path": "history/tools/ue_build_retarget_assets.py",
-    "size": 5720
+    "size": 5666
   },
   {
     "path": "history/tools/ue_build_shoe_runtime.py",
-    "size": 3811
+    "size": 3776
   },
   {
     "path": "history/tools/ue_build_width_test.py",
-    "size": 2097
+    "size": 2071
   },
   {
     "path": "history/tools/ue_capture_gait_diagnosis.py",
-    "size": 1891
+    "size": 1871
   },
   {
     "path": "history/tools/ue_check_2b_115.py",
-    "size": 680
+    "size": 671
   },
   {
     "path": "history/tools/ue_check_retarget_motion.py",
-    "size": 762
+    "size": 755
   },
   {
     "path": "history/tools/ue_chest_defaults51.py",
-    "size": 425
+    "size": 417
   },
   {
     "path": "history/tools/ue_chest_motion48.py",
-    "size": 4036
+    "size": 3990
   },
   {
     "path": "history/tools/ue_chest_motion49.py",
-    "size": 425
+    "size": 417
   },
   {
     "path": "history/tools/ue_chest_motion50.py",
-    "size": 425
+    "size": 417
   },
   {
     "path": "history/tools/ue_cloth_clearance42.py",
-    "size": 814
+    "size": 802
   },
   {
     "path": "history/tools/ue_cloth_feedback38.py",
-    "size": 436
+    "size": 427
   },
   {
     "path": "history/tools/ue_cloth_simple43.py",
-    "size": 814
+    "size": 802
   },
   {
     "path": "history/tools/ue_cloth_single44.py",
-    "size": 4427
+    "size": 4378
   },
   {
     "path": "history/tools/ue_cloth_startup39.py",
-    "size": 435
+    "size": 426
   },
   {
     "path": "history/tools/ue_create_preview_scene.py",
-    "size": 5623
+    "size": 5558
   },
   {
     "path": "history/tools/ue_finalize_retarget.py",
-    "size": 2284
+    "size": 2258
   },
   {
     "path": "history/tools/ue_fix_bind_pose.py",
-    "size": 1618
+    "size": 1592
   },
   {
     "path": "history/tools/ue_fix_cloth_skin41.py",
-    "size": 707
+    "size": 694
   },
   {
     "path": "history/tools/ue_fix_direct_materials.py",
-    "size": 3339
+    "size": 3306
   },
   {
     "path": "history/tools/ue_fix_material_slots.py",
-    "size": 986
+    "size": 967
   },
   {
     "path": "history/tools/ue_fix_material_usage.py",
-    "size": 697
+    "size": 685
   },
   {
     "path": "history/tools/ue_fix_virtual_textures.py",
-    "size": 1004
+    "size": 991
   },
   {
     "path": "history/tools/ue_import_2b_105.py",
-    "size": 4542
+    "size": 4493
   },
   {
     "path": "history/tools/ue_import_2b_110.py",
-    "size": 4542
+    "size": 4493
   },
   {
     "path": "history/tools/ue_import_2b_115.py",
-    "size": 4180
+    "size": 4135
   },
   {
     "path": "history/tools/ue_import_2b_120.py",
-    "size": 4542
+    "size": 4493
   },
   {
     "path": "history/tools/ue_import_cloth37.py",
-    "size": 5850
+    "size": 5789
   },
   {
     "path": "history/tools/ue_import_prototype.py",
-    "size": 4657
+    "size": 4597
   },
   {
     "path": "history/tools/ue_import_skirt34.py",
-    "size": 4647
+    "size": 4597
   },
   {
     "path": "history/tools/ue_import_skirt36.py",
-    "size": 4650
+    "size": 4600
+  },
+  {
+    "path": "history/tools/ue_player_release52.py",
+    "size": 1098
   },
   {
     "path": "history/tools/ue_prepare_retarget.py",
-    "size": 2260
+    "size": 2235
   },
   {
     "path": "history/tools/ue_rebind_cloth40.py",
-    "size": 707
+    "size": 694
   },
   {
     "path": "history/tools/ue_restore_hit_physics.py",
-    "size": 883
+    "size": 874
   },
   {
     "path": "history/tools/ue_set_skirt35.py",
-    "size": 673
+    "size": 659
   },
   {
     "path": "history/tools/ue_skirt_avoidance45.py",
-    "size": 440
+    "size": 431
   },
   {
     "path": "history/tools/ue_skirt_waist46.py",
-    "size": 3941
+    "size": 3897
   },
   {
     "path": "history/tools/ue_skirt_weights47.py",
-    "size": 3941
+    "size": 3897
   },
   {
     "path": "history/tools/ue_study_gait_poles.py",
-    "size": 1769
+    "size": 1751
   },
   {
     "path": "history/tools/ue_test_joint_correspondence.py",
-    "size": 1476
+    "size": 1459
   },
   {
     "path": "history/tools/ue_test_knee_neutral.py",
-    "size": 1382
+    "size": 1367
   },
   {
     "path": "history/tools/ue_test_local_pelvis_bridge.py",
-    "size": 2101
+    "size": 2081
   },
   {
     "path": "history/tools/ue_test_pelvis_bridge.py",
-    "size": 1727
+    "size": 1708
   },
   {
     "path": "history/tools/ue_test_thigh_follow.py",
-    "size": 1756
+    "size": 1732
   },
   {
     "path": "history/tools/ue_verify_gait_gate.py",
-    "size": 1257
+    "size": 1243
   },
   {
     "path": "history/tools/ue_verify_motion_lab.py",
-    "size": 1381
+    "size": 1359
   },
   {
     "path": "history/tools/ue_verify_retarget_setup.py",
-    "size": 1493
+    "size": 1479
   },
   {
     "path": "metadata/2B-reference-pose.json",
@@ -373,7 +389,7 @@
   },
   {
     "path": "metadata/cook-allowlist.json",
-    "size": 3732
+    "size": 3641
   },
   {
     "path": "metadata/direct-material-map.json",
@@ -381,7 +397,7 @@
   },
   {
     "path": "metadata/settings.json",
-    "size": 522
+    "size": 551
   },
   {
     "path": "model/2B-chest110.blend",
@@ -493,11 +509,11 @@
   },
   {
     "path": "project/ProjectPBZ/Content/Hcx2B/ABP_2B_Adult.uasset",
-    "size": 34521
+    "size": 34399
   },
   {
     "path": "project/ProjectPBZ/Content/Hcx2B/ABPT_2B_Adult.uasset",
-    "size": 2667590
+    "size": 2101342
   },
   {
     "path": "project/ProjectPBZ/Content/Hcx2B/IK_2B.uasset",
@@ -853,7 +869,7 @@
   },
   {
     "path": "project/ProjectPBZ/Source/HcxEditor/HcxFootPanel.cpp",
-    "size": 131587
+    "size": 137606
   },
   {
     "path": "project/ProjectPBZ/Source/HcxEditor/HcxGaitGraph.cpp",
@@ -873,11 +889,11 @@
   },
   {
     "path": "project/ProjectPBZ/Source/HcxEditor/HcxRetargetTools.cpp",
-    "size": 12329
+    "size": 12147
   },
   {
     "path": "project/ProjectPBZ/Source/HcxEditor/HcxRetargetTools.h",
-    "size": 3716
+    "size": 3821
   },
   {
     "path": "project/ProjectPBZ/Source/HcxEditor/HcxShoeGraph.cpp",
@@ -885,7 +901,7 @@
   },
   {
     "path": "project/ProjectPBZ/Source/HcxEditor/HcxWidthGraph.cpp",
-    "size": 40515
+    "size": 40309
   },
   {
     "path": "project/ProjectPBZ/Source/ProjectPBZEditor.Target.cs",
@@ -893,7 +909,7 @@
   },
   {
     "path": "README.md",
-    "size": 2729
+    "size": 2763
   },
   {
     "path": "tools/build.ps1",
@@ -905,6 +921,6 @@
   },
   {
     "path": "tools/package.py",
-    "size": 2405
+    "size": 2381
   }
 ]
